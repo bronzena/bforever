@@ -1,2 +1,1 @@
-console.log('Hello from Webpack');
-require('./main.css');
+require("./style.css");

@@ -67,8 +67,11 @@
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
-console.log('Hello from Webpack');
 __webpack_require__(1);
+
+const name = 'Scotch.io';
+
+setTimeout(() => console.log(`Hello there from ${name}`), 300);
 
 /***/ }),
 /* 1 */
