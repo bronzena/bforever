@@ -1,6 +1,7 @@
 module.exports = {
-    entry: './main.js',
+    entry: './src/js/main.js',
     output: {
+        path: __dirname + '/dist',
         filename: './bundle.js'
     },
     watch: true,
@@ -8,9 +9,9 @@ module.exports = {
     module: {
         loaders: [
             {
-                test: /\.css$/,
+                test: /\.less$/,
                 exclude: /node_modules/,
-                loaders: ['style-loader', 'css-loader']
+                loaders: ['style-loader', 'css-loader', 'less-loader']
             },
             {
                 test: /\.(png|jpg|jpeg|gif)$/,
