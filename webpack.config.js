@@ -9,9 +9,9 @@ module.exports = {
     module: {
         loaders: [
             {
-                test: /\.less$/,
+                test: /\.scss$/,
                 exclude: /node_modules/,
-                loaders: ['style-loader', 'css-loader', 'less-loader']
+                loaders: ['style-loader', 'css-loader', 'sass-loader']
             },
             {
                 test: /\.(png|jpg|jpeg|gif)$/,
