@@ -17,7 +17,7 @@ module.exports = {
                 test: /\.(png|jpg|jpeg|gif)$/,
                 loader: 'file-loader',
                 options: {
-                    name: './assets/img/[name].[ext]?[hash]',
+                    name: './src/img/[name].[ext]?[hash]',
                     //publicPath: '/'
                 }
             },

@@ -71,9 +71,19 @@
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_less__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_less___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_less__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_typed_js__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_typed_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_typed_js__);
 // require("../css/style.css");
 
 __webpack_require__(3);
+
+
+
+var typed = new __WEBPACK_IMPORTED_MODULE_1_typed_js___default.a('#typed', {
+    stringsElement: '#typed-strings',
+    typeSpeed: 100,
+    loop: true,
+  });
 
 
 /***/ }),
@@ -11895,7 +11905,7 @@ exports = module.exports = __webpack_require__(5)(undefined);
 
 
 // module
-exports.push([module.i, "body {\n  overflow-x: hidden;\n  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }\n\np {\n  line-height: 1.75; }\n\na {\n  color: #fed136; }\n  a.active, a:active, a:focus, a:hover {\n    color: #fec503; }\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-weight: 700;\n  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n  text-transform: uppercase; }\n\nsection {\n  padding: 100px 0; }\n  section h2.section-heading {\n    font-size: 40px;\n    margin-top: 0;\n    margin-bottom: 15px; }\n  section h3.section-subheading {\n    font-size: 16px;\n    font-weight: 400;\n    font-style: italic;\n    margin-bottom: 75px;\n    text-transform: none;\n    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }\n\n@media (min-width: 768px) {\n  section {\n    padding: 150px 0; } }\n\n::-moz-selection {\n  background: #fed136;\n  text-shadow: none; }\n\n::selection {\n  background: #fed136;\n  text-shadow: none; }\n\nimg::selection {\n  background: transparent; }\n\nimg::-moz-selection {\n  background: transparent; }\n\nbody {\n  -webkit-tap-highlight-color: #fed136; }\n\n#mainNav {\n  background-color: #222222; }\n  #mainNav .navbar-toggler {\n    font-size: 12px;\n    right: 0;\n    padding: 13px;\n    text-transform: uppercase;\n    color: white;\n    border: 0;\n    background-color: #fed136;\n    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    text-transform: uppercase; }\n  #mainNav .navbar-brand {\n    color: #fed136;\n    font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }\n    #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {\n      color: #fec503; }\n  #mainNav .navbar-nav .nav-item .nav-link {\n    font-size: 90%;\n    font-weight: 400;\n    padding: 0.75em 0;\n    letter-spacing: 1px;\n    color: white;\n    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    text-transform: uppercase; }\n    #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {\n      color: #fed136; }\n\n@media (min-width: 992px) {\n  #mainNav {\n    padding-top: 25px;\n    padding-bottom: 25px;\n    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;\n    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;\n    transition: padding-top 0.3s, padding-bottom 0.3s;\n    border: none;\n    background-color: transparent; }\n    #mainNav .navbar-brand {\n      font-size: 1.75em;\n      -webkit-transition: all 0.3s;\n      -moz-transition: all 0.3s;\n      transition: all 0.3s; }\n    #mainNav .navbar-nav .nav-item .nav-link {\n      padding: 1.1em 1em !important; }\n    #mainNav.navbar-shrink {\n      padding-top: 0;\n      padding-bottom: 0;\n      background-color: #222222; }\n      #mainNav.navbar-shrink .navbar-brand {\n        font-size: 1.25em;\n        padding: 12px 0; } }\n\nheader.masthead {\n  text-align: center;\n  color: white;\n  background-image: url(" + __webpack_require__(6) + ");\n  background-repeat: no-repeat;\n  background-attachment: scroll;\n  background-position: center center;\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover; }\n  header.masthead .intro-text {\n    padding-top: 150px;\n    padding-bottom: 100px; }\n    header.masthead .intro-text .intro-lead-in {\n      font-size: 22px;\n      font-style: italic;\n      line-height: 22px;\n      margin-bottom: 25px;\n      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }\n    header.masthead .intro-text .intro-heading {\n      font-size: 50px;\n      font-weight: 700;\n      line-height: 50px;\n      margin-bottom: 25px;\n      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n      text-transform: uppercase; }\n\n@media (min-width: 768px) {\n  header.masthead .intro-text {\n    padding-top: 300px;\n    padding-bottom: 200px; }\n    header.masthead .intro-text .intro-lead-in {\n      font-size: 40px;\n      font-style: italic;\n      line-height: 40px;\n      margin-bottom: 25px;\n      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }\n    header.masthead .intro-text .intro-heading {\n      font-size: 75px;\n      font-weight: 700;\n      line-height: 75px;\n      margin-bottom: 50px;\n      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n      text-transform: uppercase; } }\n\n.service-heading {\n  margin: 15px 0;\n  text-transform: none; }\n\n#portfolio .portfolio-item {\n  right: 0;\n  margin: 0 0 15px; }\n  #portfolio .portfolio-item .portfolio-link {\n    position: relative;\n    display: block;\n    max-width: 400px;\n    margin: 0 auto;\n    cursor: pointer; }\n    #portfolio .portfolio-item .portfolio-link .portfolio-hover {\n      position: absolute;\n      width: 100%;\n      height: 100%;\n      -webkit-transition: all ease 0.5s;\n      -moz-transition: all ease 0.5s;\n      transition: all ease 0.5s;\n      opacity: 0;\n      background: rgba(254, 209, 54, 0.9); }\n      #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {\n        opacity: 1; }\n      #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {\n        font-size: 20px;\n        position: absolute;\n        top: 50%;\n        width: 100%;\n        height: 20px;\n        margin-top: -12px;\n        text-align: center;\n        color: white; }\n        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {\n          margin-top: -12px; }\n        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,\n        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {\n          margin: 0; }\n  #portfolio .portfolio-item .portfolio-caption {\n    max-width: 400px;\n    margin: 0 auto;\n    padding: 25px;\n    text-align: center;\n    background-color: white; }\n    #portfolio .portfolio-item .portfolio-caption h4 {\n      margin: 0;\n      text-transform: none; }\n    #portfolio .portfolio-item .portfolio-caption p {\n      font-size: 16px;\n      font-style: italic;\n      margin: 0;\n      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }\n\n#portfolio * {\n  z-index: 2; }\n\n@media (min-width: 767px) {\n  #portfolio .portfolio-item {\n    margin: 0 0 30px; } }\n\n.portfolio-modal .modal-dialog {\n  max-width: none;\n  height: 100%;\n  margin: 0; }\n\n.portfolio-modal .modal-content {\n  min-height: 100%;\n  padding: 100px 0;\n  text-align: center;\n  border: none;\n  border-radius: 0;\n  background-clip: border-box;\n  -webkit-box-shadow: none;\n  box-shadow: none; }\n  .portfolio-modal .modal-content h2 {\n    font-size: 3em;\n    margin-bottom: 15px; }\n  .portfolio-modal .modal-content p {\n    margin-bottom: 30px; }\n  .portfolio-modal .modal-content p.item-intro {\n    font-size: 16px;\n    font-style: italic;\n    margin: 20px 0 30px;\n    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }\n  .portfolio-modal .modal-content ul.list-inline {\n    margin-top: 0;\n    margin-bottom: 30px; }\n  .portfolio-modal .modal-content img {\n    margin-bottom: 30px; }\n  .portfolio-modal .modal-content button {\n    cursor: pointer; }\n\n.portfolio-modal .close-modal {\n  position: absolute;\n  top: 25px;\n  right: 25px;\n  width: 75px;\n  height: 75px;\n  cursor: pointer;\n  background-color: transparent; }\n  .portfolio-modal .close-modal:hover {\n    opacity: 0.3; }\n  .portfolio-modal .close-modal .lr {\n    /* Safari and Chrome */\n    z-index: 1051;\n    width: 1px;\n    height: 75px;\n    margin-left: 35px;\n    /* IE 9 */\n    -webkit-transform: rotate(45deg);\n    -ms-transform: rotate(45deg);\n    transform: rotate(45deg);\n    background-color: #222222; }\n    .portfolio-modal .close-modal .lr .rl {\n      /* Safari and Chrome */\n      z-index: 1052;\n      width: 1px;\n      height: 75px;\n      /* IE 9 */\n      -webkit-transform: rotate(90deg);\n      -ms-transform: rotate(90deg);\n      transform: rotate(90deg);\n      background-color: #222222; }\n\n.portfolio-modal .modal-backdrop {\n  display: none;\n  opacity: 0; }\n\n.timeline {\n  position: relative;\n  padding: 0;\n  list-style: none; }\n  .timeline:before {\n    position: absolute;\n    top: 0;\n    bottom: 0;\n    left: 40px;\n    width: 2px;\n    margin-left: -1.5px;\n    content: '';\n    background-color: #f1f1f1; }\n  .timeline > li {\n    position: relative;\n    min-height: 50px;\n    margin-bottom: 50px; }\n    .timeline > li:after, .timeline > li:before {\n      display: table;\n      content: ' '; }\n    .timeline > li:after {\n      clear: both; }\n    .timeline > li .timeline-panel {\n      position: relative;\n      float: right;\n      width: 100%;\n      padding: 0 20px 0 100px;\n      text-align: left; }\n      .timeline > li .timeline-panel:before {\n        right: auto;\n        left: -15px;\n        border-right-width: 15px;\n        border-left-width: 0; }\n      .timeline > li .timeline-panel:after {\n        right: auto;\n        left: -14px;\n        border-right-width: 14px;\n        border-left-width: 0; }\n    .timeline > li .timeline-image {\n      position: absolute;\n      z-index: 100;\n      left: 0;\n      width: 80px;\n      height: 80px;\n      margin-left: 0;\n      text-align: center;\n      color: white;\n      border: 7px solid #f1f1f1;\n      border-radius: 100%;\n      background-color: #fed136; }\n      .timeline > li .timeline-image h4 {\n        font-size: 10px;\n        line-height: 14px;\n        margin-top: 12px; }\n    .timeline > li.timeline-inverted > .timeline-panel {\n      float: right;\n      padding: 0 20px 0 100px;\n      text-align: left; }\n      .timeline > li.timeline-inverted > .timeline-panel:before {\n        right: auto;\n        left: -15px;\n        border-right-width: 15px;\n        border-left-width: 0; }\n      .timeline > li.timeline-inverted > .timeline-panel:after {\n        right: auto;\n        left: -14px;\n        border-right-width: 14px;\n        border-left-width: 0; }\n    .timeline > li:last-child {\n      margin-bottom: 0; }\n  .timeline .timeline-heading h4 {\n    margin-top: 0;\n    color: inherit; }\n    .timeline .timeline-heading h4.subheading {\n      text-transform: none; }\n  .timeline .timeline-body > ul,\n  .timeline .timeline-body > p {\n    margin-bottom: 0; }\n\n@media (min-width: 768px) {\n  .timeline:before {\n    left: 50%; }\n  .timeline > li {\n    min-height: 100px;\n    margin-bottom: 100px; }\n    .timeline > li .timeline-panel {\n      float: left;\n      width: 41%;\n      padding: 0 20px 20px 30px;\n      text-align: right; }\n    .timeline > li .timeline-image {\n      left: 50%;\n      width: 100px;\n      height: 100px;\n      margin-left: -50px; }\n      .timeline > li .timeline-image h4 {\n        font-size: 13px;\n        line-height: 18px;\n        margin-top: 16px; }\n    .timeline > li.timeline-inverted > .timeline-panel {\n      float: right;\n      padding: 0 30px 20px 20px;\n      text-align: left; } }\n\n@media (min-width: 992px) {\n  .timeline > li {\n    min-height: 150px; }\n    .timeline > li .timeline-panel {\n      padding: 0 20px 20px; }\n    .timeline > li .timeline-image {\n      width: 150px;\n      height: 150px;\n      margin-left: -75px; }\n      .timeline > li .timeline-image h4 {\n        font-size: 18px;\n        line-height: 26px;\n        margin-top: 30px; }\n    .timeline > li.timeline-inverted > .timeline-panel {\n      padding: 0 20px 20px; } }\n\n@media (min-width: 1200px) {\n  .timeline > li {\n    min-height: 170px; }\n    .timeline > li .timeline-panel {\n      padding: 0 20px 20px 100px; }\n    .timeline > li .timeline-image {\n      width: 170px;\n      height: 170px;\n      margin-left: -85px; }\n      .timeline > li .timeline-image h4 {\n        margin-top: 40px; }\n    .timeline > li.timeline-inverted > .timeline-panel {\n      padding: 0 100px 20px 20px; } }\n\n.team-member {\n  margin-bottom: 50px;\n  text-align: center; }\n  .team-member img {\n    width: 225px;\n    height: 225px;\n    border: 7px solid white; }\n  .team-member h4 {\n    margin-top: 25px;\n    margin-bottom: 0;\n    text-transform: none; }\n  .team-member p {\n    margin-top: 0; }\n\nsection#contact {\n  background-color: #222222;\n  background-image: url(" + __webpack_require__(7) + ");\n  background-repeat: no-repeat;\n  background-position: center; }\n  section#contact .section-heading {\n    color: white; }\n  section#contact .form-group {\n    margin-bottom: 25px; }\n    section#contact .form-group input,\n    section#contact .form-group textarea {\n      padding: 20px; }\n    section#contact .form-group input.form-control {\n      height: auto; }\n    section#contact .form-group textarea.form-control {\n      height: 236px; }\n  section#contact .form-control:focus {\n    border-color: #fed136;\n    box-shadow: none; }\n  section#contact ::-webkit-input-placeholder {\n    font-weight: 700;\n    color: #eeeeee;\n    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    text-transform: uppercase; }\n  section#contact :-moz-placeholder {\n    font-weight: 700;\n    color: #eeeeee;\n    /* Firefox 18- */\n    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    text-transform: uppercase; }\n  section#contact ::-moz-placeholder {\n    font-weight: 700;\n    color: #eeeeee;\n    /* Firefox 19+ */\n    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    text-transform: uppercase; }\n  section#contact :-ms-input-placeholder {\n    font-weight: 700;\n    color: #eeeeee;\n    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    text-transform: uppercase; }\n  section#contact .text-danger {\n    color: #e74c3c; }\n\nfooter {\n  padding: 25px 0;\n  text-align: center; }\n  footer span.copyright {\n    font-size: 90%;\n    line-height: 40px;\n    text-transform: none;\n    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    text-transform: uppercase; }\n  footer ul.quicklinks {\n    font-size: 90%;\n    line-height: 40px;\n    margin-bottom: 0;\n    text-transform: none;\n    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    text-transform: uppercase; }\n\nul.social-buttons {\n  margin-bottom: 0; }\n  ul.social-buttons li a {\n    font-size: 20px;\n    line-height: 40px;\n    display: block;\n    width: 40px;\n    height: 40px;\n    -webkit-transition: all 0.3s;\n    -moz-transition: all 0.3s;\n    transition: all 0.3s;\n    color: white;\n    border-radius: 100%;\n    outline: none;\n    background-color: #222222; }\n    ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {\n      background-color: #fed136; }\n\n.text-primary {\n  color: #fed136 !important; }\n\n.btn-primary {\n  font-weight: 700;\n  color: white;\n  border-color: #fed136;\n  background-color: #fed136;\n  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n  text-transform: uppercase; }\n  .btn-primary.focus, .btn-primary:focus {\n    color: white;\n    border-color: #b48b01;\n    background-color: #fec503; }\n  .btn-primary:hover {\n    color: white;\n    border-color: #f6bf01;\n    background-color: #fec503; }\n  .btn-primary.active, .btn-primary:active,\n  .open > .btn-primary.dropdown-toggle {\n    color: white;\n    border-color: #f6bf01;\n    background-color: #fec503; }\n    .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover,\n    .open > .btn-primary.dropdown-toggle.focus,\n    .open > .btn-primary.dropdown-toggle:focus,\n    .open > .btn-primary.dropdown-toggle:hover {\n      color: white;\n      border-color: #b48b01;\n      background-color: #dcab01; }\n  .btn-primary.active, .btn-primary:active,\n  .open > .btn-primary.dropdown-toggle {\n    background-image: none; }\n  .btn-primary.disabled.focus, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled].focus, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover,\n  fieldset[disabled] .btn-primary.focus,\n  fieldset[disabled] .btn-primary:focus,\n  fieldset[disabled] .btn-primary:hover {\n    border-color: #fed136;\n    background-color: #fed136; }\n  .btn-primary .badge {\n    color: #fed136;\n    background-color: white; }\n\n.btn-xl {\n  font-size: 18px;\n  font-weight: 700;\n  padding: 20px 40px;\n  border-radius: 3px;\n  color: white;\n  border-color: #fed136;\n  background-color: #fed136;\n  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n  text-transform: uppercase; }\n  .btn-xl.focus, .btn-xl:focus {\n    color: white;\n    border-color: #b48b01;\n    background-color: #fec503; }\n  .btn-xl:hover {\n    color: white;\n    border-color: #f6bf01;\n    background-color: #fec503; }\n  .btn-xl.active, .btn-xl:active,\n  .open > .btn-xl.dropdown-toggle {\n    color: white;\n    border-color: #f6bf01;\n    background-color: #fec503; }\n    .btn-xl.active.focus, .btn-xl.active:focus, .btn-xl.active:hover, .btn-xl:active.focus, .btn-xl:active:focus, .btn-xl:active:hover,\n    .open > .btn-xl.dropdown-toggle.focus,\n    .open > .btn-xl.dropdown-toggle:focus,\n    .open > .btn-xl.dropdown-toggle:hover {\n      color: white;\n      border-color: #b48b01;\n      background-color: #dcab01; }\n  .btn-xl.active, .btn-xl:active,\n  .open > .btn-xl.dropdown-toggle {\n    background-image: none; }\n  .btn-xl.disabled.focus, .btn-xl.disabled:focus, .btn-xl.disabled:hover, .btn-xl[disabled].focus, .btn-xl[disabled]:focus, .btn-xl[disabled]:hover,\n  fieldset[disabled] .btn-xl.focus,\n  fieldset[disabled] .btn-xl:focus,\n  fieldset[disabled] .btn-xl:hover {\n    border-color: #fed136;\n    background-color: #fed136; }\n  .btn-xl .badge {\n    color: #fed136;\n    background-color: white; }\n", ""]);
+exports.push([module.i, "body {\n  overflow-x: hidden;\n  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }\n\np {\n  line-height: 1.75; }\n\na {\n  color: #36cac3; }\n  a.active, a:active, a:focus, a:hover {\n    color: #2ba29d; }\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-weight: 700;\n  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n  text-transform: uppercase; }\n\nsection {\n  padding: 100px 0; }\n  section h2.section-heading {\n    font-size: 40px;\n    margin-top: 0;\n    margin-bottom: 15px; }\n  section h3.section-subheading {\n    font-size: 16px;\n    font-weight: 400;\n    font-style: italic;\n    margin-bottom: 75px;\n    text-transform: none;\n    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }\n\n@media (min-width: 768px) {\n  section {\n    padding: 150px 0; } }\n\n::-moz-selection {\n  background: #36cac3;\n  text-shadow: none; }\n\n::selection {\n  background: #36cac3;\n  text-shadow: none; }\n\nimg::selection {\n  background: transparent; }\n\nimg::-moz-selection {\n  background: transparent; }\n\nbody {\n  -webkit-tap-highlight-color: #36cac3; }\n\n#mainNav {\n  background-color: #222222; }\n  #mainNav .navbar-toggler {\n    font-size: 12px;\n    right: 0;\n    padding: 13px;\n    text-transform: uppercase;\n    color: white;\n    border: 0;\n    background-color: #36cac3;\n    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    text-transform: uppercase; }\n  #mainNav .navbar-brand {\n    color: #36cac3;\n    font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }\n    #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {\n      color: #2ba29d; }\n  #mainNav .navbar-nav .nav-item .nav-link {\n    font-size: 90%;\n    font-weight: 400;\n    padding: 0.75em 0;\n    letter-spacing: 1px;\n    color: white;\n    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    text-transform: uppercase; }\n    #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {\n      color: #36cac3; }\n\n@media (min-width: 992px) {\n  #mainNav {\n    padding-top: 25px;\n    padding-bottom: 25px;\n    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;\n    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;\n    transition: padding-top 0.3s, padding-bottom 0.3s;\n    border: none;\n    background-color: transparent; }\n    #mainNav .navbar-brand {\n      font-size: 1.75em;\n      -webkit-transition: all 0.3s;\n      -moz-transition: all 0.3s;\n      transition: all 0.3s; }\n    #mainNav .navbar-nav .nav-item .nav-link {\n      padding: 1.1em 1em !important; }\n    #mainNav.navbar-shrink {\n      padding-top: 0;\n      padding-bottom: 0;\n      background-color: #222222; }\n      #mainNav.navbar-shrink .navbar-brand {\n        font-size: 1.25em;\n        padding: 12px 0; } }\n\nheader.masthead {\n  text-align: center;\n  height: 100vh;\n  color: white;\n  background-image: url(" + __webpack_require__(6) + ");\n  background-repeat: no-repeat;\n  background-attachment: scroll;\n  background-position: center center;\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover; }\n  header.masthead .intro-text {\n    padding-top: 150px;\n    padding-bottom: 100px; }\n    header.masthead .intro-text .intro-lead-in {\n      font-size: 22px;\n      font-style: italic;\n      line-height: 22px;\n      margin-bottom: 25px;\n      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }\n    header.masthead .intro-text .intro-heading {\n      font-size: 50px;\n      font-weight: 700;\n      line-height: 50px;\n      margin-bottom: 25px;\n      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n      text-transform: uppercase; }\n\n@media (min-width: 768px) {\n  header.masthead .intro-text {\n    padding-top: 300px;\n    padding-bottom: 200px; }\n    header.masthead .intro-text .intro-lead-in {\n      font-size: 40px;\n      font-style: italic;\n      line-height: 40px;\n      margin-bottom: 25px;\n      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }\n    header.masthead .intro-text .intro-heading {\n      font-size: 75px;\n      font-weight: 700;\n      line-height: 75px;\n      margin-bottom: 50px;\n      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n      text-transform: uppercase; } }\n\n.service-heading {\n  margin: 15px 0;\n  text-transform: none; }\n\n#portfolio .portfolio-item {\n  right: 0;\n  margin: 0 0 15px; }\n  #portfolio .portfolio-item .portfolio-link {\n    position: relative;\n    display: block;\n    max-width: 400px;\n    margin: 0 auto;\n    cursor: pointer; }\n    #portfolio .portfolio-item .portfolio-link .portfolio-hover {\n      position: absolute;\n      width: 100%;\n      height: 100%;\n      -webkit-transition: all ease 0.5s;\n      -moz-transition: all ease 0.5s;\n      transition: all ease 0.5s;\n      opacity: 0;\n      background: rgba(54, 202, 195, 0.9); }\n      #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {\n        opacity: 1; }\n      #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {\n        font-size: 20px;\n        position: absolute;\n        top: 50%;\n        width: 100%;\n        height: 20px;\n        margin-top: -12px;\n        text-align: center;\n        color: white; }\n        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {\n          margin-top: -12px; }\n        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,\n        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {\n          margin: 0; }\n  #portfolio .portfolio-item .portfolio-caption {\n    max-width: 400px;\n    margin: 0 auto;\n    padding: 25px;\n    text-align: center;\n    background-color: white; }\n    #portfolio .portfolio-item .portfolio-caption h4 {\n      margin: 0;\n      text-transform: none; }\n    #portfolio .portfolio-item .portfolio-caption p {\n      font-size: 16px;\n      font-style: italic;\n      margin: 0;\n      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }\n\n#portfolio * {\n  z-index: 2; }\n\n@media (min-width: 767px) {\n  #portfolio .portfolio-item {\n    margin: 0 0 30px; } }\n\n.portfolio-modal .modal-dialog {\n  max-width: none;\n  height: 100%;\n  margin: 0; }\n\n.portfolio-modal .modal-content {\n  min-height: 100%;\n  padding: 100px 0;\n  text-align: center;\n  border: none;\n  border-radius: 0;\n  background-clip: border-box;\n  -webkit-box-shadow: none;\n  box-shadow: none; }\n  .portfolio-modal .modal-content h2 {\n    font-size: 3em;\n    margin-bottom: 15px; }\n  .portfolio-modal .modal-content p {\n    margin-bottom: 30px; }\n  .portfolio-modal .modal-content p.item-intro {\n    font-size: 16px;\n    font-style: italic;\n    margin: 20px 0 30px;\n    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }\n  .portfolio-modal .modal-content ul.list-inline {\n    margin-top: 0;\n    margin-bottom: 30px; }\n  .portfolio-modal .modal-content img {\n    margin-bottom: 30px; }\n  .portfolio-modal .modal-content button {\n    cursor: pointer; }\n\n.portfolio-modal .close-modal {\n  position: absolute;\n  top: 25px;\n  right: 25px;\n  width: 75px;\n  height: 75px;\n  cursor: pointer;\n  background-color: transparent; }\n  .portfolio-modal .close-modal:hover {\n    opacity: 0.3; }\n  .portfolio-modal .close-modal .lr {\n    /* Safari and Chrome */\n    z-index: 1051;\n    width: 1px;\n    height: 75px;\n    margin-left: 35px;\n    /* IE 9 */\n    -webkit-transform: rotate(45deg);\n    -ms-transform: rotate(45deg);\n    transform: rotate(45deg);\n    background-color: #222222; }\n    .portfolio-modal .close-modal .lr .rl {\n      /* Safari and Chrome */\n      z-index: 1052;\n      width: 1px;\n      height: 75px;\n      /* IE 9 */\n      -webkit-transform: rotate(90deg);\n      -ms-transform: rotate(90deg);\n      transform: rotate(90deg);\n      background-color: #222222; }\n\n.portfolio-modal .modal-backdrop {\n  display: none;\n  opacity: 0; }\n\n.timeline {\n  position: relative;\n  padding: 0;\n  list-style: none; }\n  .timeline:before {\n    position: absolute;\n    top: 0;\n    bottom: 0;\n    left: 40px;\n    width: 2px;\n    margin-left: -1.5px;\n    content: '';\n    background-color: #f1f1f1; }\n  .timeline > li {\n    position: relative;\n    min-height: 50px;\n    margin-bottom: 50px; }\n    .timeline > li:after, .timeline > li:before {\n      display: table;\n      content: ' '; }\n    .timeline > li:after {\n      clear: both; }\n    .timeline > li .timeline-panel {\n      position: relative;\n      float: right;\n      width: 100%;\n      padding: 0 20px 0 100px;\n      text-align: left; }\n      .timeline > li .timeline-panel:before {\n        right: auto;\n        left: -15px;\n        border-right-width: 15px;\n        border-left-width: 0; }\n      .timeline > li .timeline-panel:after {\n        right: auto;\n        left: -14px;\n        border-right-width: 14px;\n        border-left-width: 0; }\n    .timeline > li .timeline-image {\n      position: absolute;\n      z-index: 100;\n      left: 0;\n      width: 80px;\n      height: 80px;\n      margin-left: 0;\n      text-align: center;\n      color: white;\n      border: 7px solid #f1f1f1;\n      border-radius: 100%;\n      background-color: #36cac3; }\n      .timeline > li .timeline-image h4 {\n        font-size: 10px;\n        line-height: 14px;\n        margin-top: 12px; }\n    .timeline > li.timeline-inverted > .timeline-panel {\n      float: right;\n      padding: 0 20px 0 100px;\n      text-align: left; }\n      .timeline > li.timeline-inverted > .timeline-panel:before {\n        right: auto;\n        left: -15px;\n        border-right-width: 15px;\n        border-left-width: 0; }\n      .timeline > li.timeline-inverted > .timeline-panel:after {\n        right: auto;\n        left: -14px;\n        border-right-width: 14px;\n        border-left-width: 0; }\n    .timeline > li:last-child {\n      margin-bottom: 0; }\n  .timeline .timeline-heading h4 {\n    margin-top: 0;\n    color: inherit; }\n    .timeline .timeline-heading h4.subheading {\n      text-transform: none; }\n  .timeline .timeline-body > ul,\n  .timeline .timeline-body > p {\n    margin-bottom: 0; }\n\n@media (min-width: 768px) {\n  .timeline:before {\n    left: 50%; }\n  .timeline > li {\n    min-height: 100px;\n    margin-bottom: 100px; }\n    .timeline > li .timeline-panel {\n      float: left;\n      width: 41%;\n      padding: 0 20px 20px 30px;\n      text-align: right; }\n    .timeline > li .timeline-image {\n      left: 50%;\n      width: 100px;\n      height: 100px;\n      margin-left: -50px; }\n      .timeline > li .timeline-image h4 {\n        font-size: 13px;\n        line-height: 18px;\n        margin-top: 16px; }\n    .timeline > li.timeline-inverted > .timeline-panel {\n      float: right;\n      padding: 0 30px 20px 20px;\n      text-align: left; } }\n\n@media (min-width: 992px) {\n  .timeline > li {\n    min-height: 150px; }\n    .timeline > li .timeline-panel {\n      padding: 0 20px 20px; }\n    .timeline > li .timeline-image {\n      width: 150px;\n      height: 150px;\n      margin-left: -75px; }\n      .timeline > li .timeline-image h4 {\n        font-size: 18px;\n        line-height: 26px;\n        margin-top: 30px; }\n    .timeline > li.timeline-inverted > .timeline-panel {\n      padding: 0 20px 20px; } }\n\n@media (min-width: 1200px) {\n  .timeline > li {\n    min-height: 170px; }\n    .timeline > li .timeline-panel {\n      padding: 0 20px 20px 100px; }\n    .timeline > li .timeline-image {\n      width: 170px;\n      height: 170px;\n      margin-left: -85px; }\n      .timeline > li .timeline-image h4 {\n        margin-top: 40px; }\n    .timeline > li.timeline-inverted > .timeline-panel {\n      padding: 0 100px 20px 20px; } }\n\n.team-member {\n  margin-bottom: 50px;\n  text-align: center; }\n  .team-member img {\n    width: 225px;\n    height: 225px;\n    border: 7px solid white; }\n  .team-member h4 {\n    margin-top: 25px;\n    margin-bottom: 0;\n    text-transform: none; }\n  .team-member p {\n    margin-top: 0; }\n\nsection#contact {\n  background-color: #222222;\n  background-image: url(" + __webpack_require__(7) + ");\n  background-repeat: no-repeat;\n  background-position: center; }\n  section#contact .section-heading {\n    color: white; }\n  section#contact .form-group {\n    margin-bottom: 25px; }\n    section#contact .form-group input,\n    section#contact .form-group textarea {\n      padding: 20px; }\n    section#contact .form-group input.form-control {\n      height: auto; }\n    section#contact .form-group textarea.form-control {\n      height: 236px; }\n  section#contact .form-control:focus {\n    border-color: #36cac3;\n    box-shadow: none; }\n  section#contact ::-webkit-input-placeholder {\n    font-weight: 700;\n    color: #eeeeee;\n    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    text-transform: uppercase; }\n  section#contact :-moz-placeholder {\n    font-weight: 700;\n    color: #eeeeee;\n    /* Firefox 18- */\n    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    text-transform: uppercase; }\n  section#contact ::-moz-placeholder {\n    font-weight: 700;\n    color: #eeeeee;\n    /* Firefox 19+ */\n    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    text-transform: uppercase; }\n  section#contact :-ms-input-placeholder {\n    font-weight: 700;\n    color: #eeeeee;\n    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    text-transform: uppercase; }\n  section#contact .text-danger {\n    color: #e74c3c; }\n\nfooter {\n  padding: 25px 0;\n  text-align: center; }\n  footer span.copyright {\n    font-size: 90%;\n    line-height: 40px;\n    text-transform: none;\n    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    text-transform: uppercase; }\n  footer ul.quicklinks {\n    font-size: 90%;\n    line-height: 40px;\n    margin-bottom: 0;\n    text-transform: none;\n    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    text-transform: uppercase; }\n\nul.social-buttons {\n  margin-bottom: 0; }\n  ul.social-buttons li a {\n    font-size: 20px;\n    line-height: 40px;\n    display: block;\n    width: 40px;\n    height: 40px;\n    -webkit-transition: all 0.3s;\n    -moz-transition: all 0.3s;\n    transition: all 0.3s;\n    color: white;\n    border-radius: 100%;\n    outline: none;\n    background-color: #222222; }\n    ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {\n      background-color: #36cac3; }\n\n.text-primary {\n  color: #36cac3 !important; }\n\n.btn-primary {\n  font-weight: 700;\n  color: white;\n  border-color: #36cac3;\n  background-color: #36cac3;\n  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n  text-transform: uppercase; }\n  .btn-primary.focus, .btn-primary:focus {\n    color: white;\n    border-color: #1b6662;\n    background-color: #2ba29d; }\n  .btn-primary:hover {\n    color: white;\n    border-color: #299a95;\n    background-color: #2ba29d; }\n  .btn-primary.active, .btn-primary:active,\n  .open > .btn-primary.dropdown-toggle {\n    color: white;\n    border-color: #299a95;\n    background-color: #2ba29d; }\n    .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover,\n    .open > .btn-primary.dropdown-toggle.focus,\n    .open > .btn-primary.dropdown-toggle:focus,\n    .open > .btn-primary.dropdown-toggle:hover {\n      color: white;\n      border-color: #1b6662;\n      background-color: #238681; }\n  .btn-primary.active, .btn-primary:active,\n  .open > .btn-primary.dropdown-toggle {\n    background-image: none; }\n  .btn-primary.disabled.focus, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled].focus, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover,\n  fieldset[disabled] .btn-primary.focus,\n  fieldset[disabled] .btn-primary:focus,\n  fieldset[disabled] .btn-primary:hover {\n    border-color: #36cac3;\n    background-color: #36cac3; }\n  .btn-primary .badge {\n    color: #36cac3;\n    background-color: white; }\n\n.btn-xl {\n  font-size: 18px;\n  font-weight: 700;\n  padding: 20px 40px;\n  border-radius: 3px;\n  color: white;\n  border-color: #36cac3;\n  background-color: #36cac3;\n  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n  text-transform: uppercase; }\n  .btn-xl.focus, .btn-xl:focus {\n    color: white;\n    border-color: #1b6662;\n    background-color: #2ba29d; }\n  .btn-xl:hover {\n    color: white;\n    border-color: #299a95;\n    background-color: #2ba29d; }\n  .btn-xl.active, .btn-xl:active,\n  .open > .btn-xl.dropdown-toggle {\n    color: white;\n    border-color: #299a95;\n    background-color: #2ba29d; }\n    .btn-xl.active.focus, .btn-xl.active:focus, .btn-xl.active:hover, .btn-xl:active.focus, .btn-xl:active:focus, .btn-xl:active:hover,\n    .open > .btn-xl.dropdown-toggle.focus,\n    .open > .btn-xl.dropdown-toggle:focus,\n    .open > .btn-xl.dropdown-toggle:hover {\n      color: white;\n      border-color: #1b6662;\n      background-color: #238681; }\n  .btn-xl.active, .btn-xl:active,\n  .open > .btn-xl.dropdown-toggle {\n    background-image: none; }\n  .btn-xl.disabled.focus, .btn-xl.disabled:focus, .btn-xl.disabled:hover, .btn-xl[disabled].focus, .btn-xl[disabled]:focus, .btn-xl[disabled]:hover,\n  fieldset[disabled] .btn-xl.focus,\n  fieldset[disabled] .btn-xl:focus,\n  fieldset[disabled] .btn-xl:hover {\n    border-color: #36cac3;\n    background-color: #36cac3; }\n  .btn-xl .badge {\n    color: #36cac3;\n    background-color: white; }\n", ""]);
 
 // exports
 
@@ -11986,13 +11996,13 @@ function toComment(sourceMap) {
 /* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "./assets/img/header-bg.jpg?e2d2a51c2932205b52f4a5ae1943eb97";
+module.exports = __webpack_require__.p + "./src/img/header-bg.jpg?e2d2a51c2932205b52f4a5ae1943eb97";
 
 /***/ }),
 /* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "./assets/img/map-image.png?f40ed5b1e791e9d2479ba8b5e67f2df8";
+module.exports = __webpack_require__.p + "./src/img/map-image.png?f40ed5b1e791e9d2479ba8b5e67f2df8";
 
 /***/ }),
 /* 8 */
@@ -12460,6 +12470,1047 @@ module.exports = function (css) {
 	return fixedCss;
 };
 
+
+/***/ }),
+/* 10 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/*!
+ * 
+ *   typed.js - A JavaScript Typing Animation Library
+ *   Author: Matt Boldt <me@mattboldt.com>
+ *   Version: v2.0.6
+ *   Url: https://github.com/mattboldt/typed.js
+ *   License(s): MIT
+ * 
+ */
+(function webpackUniversalModuleDefinition(root, factory) {
+	if(true)
+		module.exports = factory();
+	else if(typeof define === 'function' && define.amd)
+		define([], factory);
+	else if(typeof exports === 'object')
+		exports["Typed"] = factory();
+	else
+		root["Typed"] = factory();
+})(this, function() {
+return /******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId])
+/******/ 			return installedModules[moduleId].exports;
+/******/
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			exports: {},
+/******/ 			id: moduleId,
+/******/ 			loaded: false
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.loaded = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "";
+/******/
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(0);
+/******/ })
+/************************************************************************/
+/******/ ([
+/* 0 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+	
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+	
+	var _initializerJs = __webpack_require__(1);
+	
+	var _htmlParserJs = __webpack_require__(3);
+	
+	/**
+	 * Welcome to Typed.js!
+	 * @param {string} elementId HTML element ID _OR_ HTML element
+	 * @param {object} options options object
+	 * @returns {object} a new Typed object
+	 */
+	
+	var Typed = (function () {
+	  function Typed(elementId, options) {
+	    _classCallCheck(this, Typed);
+	
+	    // Initialize it up
+	    _initializerJs.initializer.load(this, options, elementId);
+	    // All systems go!
+	    this.begin();
+	  }
+	
+	  /**
+	   * Toggle start() and stop() of the Typed instance
+	   * @public
+	   */
+	
+	  _createClass(Typed, [{
+	    key: 'toggle',
+	    value: function toggle() {
+	      this.pause.status ? this.start() : this.stop();
+	    }
+	
+	    /**
+	     * Stop typing / backspacing and enable cursor blinking
+	     * @public
+	     */
+	  }, {
+	    key: 'stop',
+	    value: function stop() {
+	      if (this.typingComplete) return;
+	      if (this.pause.status) return;
+	      this.toggleBlinking(true);
+	      this.pause.status = true;
+	      this.options.onStop(this.arrayPos, this);
+	    }
+	
+	    /**
+	     * Start typing / backspacing after being stopped
+	     * @public
+	     */
+	  }, {
+	    key: 'start',
+	    value: function start() {
+	      if (this.typingComplete) return;
+	      if (!this.pause.status) return;
+	      this.pause.status = false;
+	      if (this.pause.typewrite) {
+	        this.typewrite(this.pause.curString, this.pause.curStrPos);
+	      } else {
+	        this.backspace(this.pause.curString, this.pause.curStrPos);
+	      }
+	      this.options.onStart(this.arrayPos, this);
+	    }
+	
+	    /**
+	     * Destroy this instance of Typed
+	     * @public
+	     */
+	  }, {
+	    key: 'destroy',
+	    value: function destroy() {
+	      this.reset(false);
+	      this.options.onDestroy(this);
+	    }
+	
+	    /**
+	     * Reset Typed and optionally restarts
+	     * @param {boolean} restart
+	     * @public
+	     */
+	  }, {
+	    key: 'reset',
+	    value: function reset() {
+	      var restart = arguments.length <= 0 || arguments[0] === undefined ? true : arguments[0];
+	
+	      clearInterval(this.timeout);
+	      this.replaceText('');
+	      if (this.cursor && this.cursor.parentNode) {
+	        this.cursor.parentNode.removeChild(this.cursor);
+	        this.cursor = null;
+	      }
+	      this.strPos = 0;
+	      this.arrayPos = 0;
+	      this.curLoop = 0;
+	      if (restart) {
+	        this.insertCursor();
+	        this.options.onReset(this);
+	        this.begin();
+	      }
+	    }
+	
+	    /**
+	     * Begins the typing animation
+	     * @private
+	     */
+	  }, {
+	    key: 'begin',
+	    value: function begin() {
+	      var _this = this;
+	
+	      this.typingComplete = false;
+	      this.shuffleStringsIfNeeded(this);
+	      this.insertCursor();
+	      if (this.bindInputFocusEvents) this.bindFocusEvents();
+	      this.timeout = setTimeout(function () {
+	        // Check if there is some text in the element, if yes start by backspacing the default message
+	        if (!_this.currentElContent || _this.currentElContent.length === 0) {
+	          _this.typewrite(_this.strings[_this.sequence[_this.arrayPos]], _this.strPos);
+	        } else {
+	          // Start typing
+	          _this.backspace(_this.currentElContent, _this.currentElContent.length);
+	        }
+	      }, this.startDelay);
+	    }
+	
+	    /**
+	     * Called for each character typed
+	     * @param {string} curString the current string in the strings array
+	     * @param {number} curStrPos the current position in the curString
+	     * @private
+	     */
+	  }, {
+	    key: 'typewrite',
+	    value: function typewrite(curString, curStrPos) {
+	      var _this2 = this;
+	
+	      if (this.fadeOut && this.el.classList.contains(this.fadeOutClass)) {
+	        this.el.classList.remove(this.fadeOutClass);
+	        if (this.cursor) this.cursor.classList.remove(this.fadeOutClass);
+	      }
+	
+	      var humanize = this.humanizer(this.typeSpeed);
+	      var numChars = 1;
+	
+	      if (this.pause.status === true) {
+	        this.setPauseStatus(curString, curStrPos, true);
+	        return;
+	      }
+	
+	      // contain typing function in a timeout humanize'd delay
+	      this.timeout = setTimeout(function () {
+	        // skip over any HTML chars
+	        curStrPos = _htmlParserJs.htmlParser.typeHtmlChars(curString, curStrPos, _this2);
+	
+	        var pauseTime = 0;
+	        var substr = curString.substr(curStrPos);
+	        // check for an escape character before a pause value
+	        // format: \^\d+ .. eg: ^1000 .. should be able to print the ^ too using ^^
+	        // single ^ are removed from string
+	        if (substr.charAt(0) === '^') {
+	          if (/^\^\d+/.test(substr)) {
+	            var skip = 1; // skip at least 1
+	            substr = /\d+/.exec(substr)[0];
+	            skip += substr.length;
+	            pauseTime = parseInt(substr);
+	            _this2.temporaryPause = true;
+	            _this2.options.onTypingPaused(_this2.arrayPos, _this2);
+	            // strip out the escape character and pause value so they're not printed
+	            curString = curString.substring(0, curStrPos) + curString.substring(curStrPos + skip);
+	            _this2.toggleBlinking(true);
+	          }
+	        }
+	
+	        // check for skip characters formatted as
+	        // "this is a `string to print NOW` ..."
+	        if (substr.charAt(0) === '`') {
+	          while (curString.substr(curStrPos + numChars).charAt(0) !== '`') {
+	            numChars++;
+	            if (curStrPos + numChars > curString.length) break;
+	          }
+	          // strip out the escape characters and append all the string in between
+	          var stringBeforeSkip = curString.substring(0, curStrPos);
+	          var stringSkipped = curString.substring(stringBeforeSkip.length + 1, curStrPos + numChars);
+	          var stringAfterSkip = curString.substring(curStrPos + numChars + 1);
+	          curString = stringBeforeSkip + stringSkipped + stringAfterSkip;
+	          numChars--;
+	        }
+	
+	        // timeout for any pause after a character
+	        _this2.timeout = setTimeout(function () {
+	          // Accounts for blinking while paused
+	          _this2.toggleBlinking(false);
+	
+	          // We're done with this sentence!
+	          if (curStrPos === curString.length) {
+	            _this2.doneTyping(curString, curStrPos);
+	          } else {
+	            _this2.keepTyping(curString, curStrPos, numChars);
+	          }
+	          // end of character pause
+	          if (_this2.temporaryPause) {
+	            _this2.temporaryPause = false;
+	            _this2.options.onTypingResumed(_this2.arrayPos, _this2);
+	          }
+	        }, pauseTime);
+	
+	        // humanized value for typing
+	      }, humanize);
+	    }
+	
+	    /**
+	     * Continue to the next string & begin typing
+	     * @param {string} curString the current string in the strings array
+	     * @param {number} curStrPos the current position in the curString
+	     * @private
+	     */
+	  }, {
+	    key: 'keepTyping',
+	    value: function keepTyping(curString, curStrPos, numChars) {
+	      // call before functions if applicable
+	      if (curStrPos === 0) {
+	        this.toggleBlinking(false);
+	        this.options.preStringTyped(this.arrayPos, this);
+	      }
+	      // start typing each new char into existing string
+	      // curString: arg, this.el.html: original text inside element
+	      curStrPos += numChars;
+	      var nextString = curString.substr(0, curStrPos);
+	      this.replaceText(nextString);
+	      // loop the function
+	      this.typewrite(curString, curStrPos);
+	    }
+	
+	    /**
+	     * We're done typing all strings
+	     * @param {string} curString the current string in the strings array
+	     * @param {number} curStrPos the current position in the curString
+	     * @private
+	     */
+	  }, {
+	    key: 'doneTyping',
+	    value: function doneTyping(curString, curStrPos) {
+	      var _this3 = this;
+	
+	      // fires callback function
+	      this.options.onStringTyped(this.arrayPos, this);
+	      this.toggleBlinking(true);
+	      // is this the final string
+	      if (this.arrayPos === this.strings.length - 1) {
+	        // callback that occurs on the last typed string
+	        this.complete();
+	        // quit if we wont loop back
+	        if (this.loop === false || this.curLoop === this.loopCount) {
+	          return;
+	        }
+	      }
+	      this.timeout = setTimeout(function () {
+	        _this3.backspace(curString, curStrPos);
+	      }, this.backDelay);
+	    }
+	
+	    /**
+	     * Backspaces 1 character at a time
+	     * @param {string} curString the current string in the strings array
+	     * @param {number} curStrPos the current position in the curString
+	     * @private
+	     */
+	  }, {
+	    key: 'backspace',
+	    value: function backspace(curString, curStrPos) {
+	      var _this4 = this;
+	
+	      if (this.pause.status === true) {
+	        this.setPauseStatus(curString, curStrPos, true);
+	        return;
+	      }
+	      if (this.fadeOut) return this.initFadeOut();
+	
+	      this.toggleBlinking(false);
+	      var humanize = this.humanizer(this.backSpeed);
+	
+	      this.timeout = setTimeout(function () {
+	        curStrPos = _htmlParserJs.htmlParser.backSpaceHtmlChars(curString, curStrPos, _this4);
+	        // replace text with base text + typed characters
+	        var curStringAtPosition = curString.substr(0, curStrPos);
+	        _this4.replaceText(curStringAtPosition);
+	
+	        // if smartBack is enabled
+	        if (_this4.smartBackspace) {
+	          // the remaining part of the current string is equal of the same part of the new string
+	          var nextString = _this4.strings[_this4.arrayPos + 1];
+	          if (nextString && curStringAtPosition === nextString.substr(0, curStrPos)) {
+	            _this4.stopNum = curStrPos;
+	          } else {
+	            _this4.stopNum = 0;
+	          }
+	        }
+	
+	        // if the number (id of character in current string) is
+	        // less than the stop number, keep going
+	        if (curStrPos > _this4.stopNum) {
+	          // subtract characters one by one
+	          curStrPos--;
+	          // loop the function
+	          _this4.backspace(curString, curStrPos);
+	        } else if (curStrPos <= _this4.stopNum) {
+	          // if the stop number has been reached, increase
+	          // array position to next string
+	          _this4.arrayPos++;
+	          // When looping, begin at the beginning after backspace complete
+	          if (_this4.arrayPos === _this4.strings.length) {
+	            _this4.arrayPos = 0;
+	            _this4.options.onLastStringBackspaced();
+	            _this4.shuffleStringsIfNeeded();
+	            _this4.begin();
+	          } else {
+	            _this4.typewrite(_this4.strings[_this4.sequence[_this4.arrayPos]], curStrPos);
+	          }
+	        }
+	        // humanized value for typing
+	      }, humanize);
+	    }
+	
+	    /**
+	     * Full animation is complete
+	     * @private
+	     */
+	  }, {
+	    key: 'complete',
+	    value: function complete() {
+	      this.options.onComplete(this);
+	      if (this.loop) {
+	        this.curLoop++;
+	      } else {
+	        this.typingComplete = true;
+	      }
+	    }
+	
+	    /**
+	     * Has the typing been stopped
+	     * @param {string} curString the current string in the strings array
+	     * @param {number} curStrPos the current position in the curString
+	     * @param {boolean} isTyping
+	     * @private
+	     */
+	  }, {
+	    key: 'setPauseStatus',
+	    value: function setPauseStatus(curString, curStrPos, isTyping) {
+	      this.pause.typewrite = isTyping;
+	      this.pause.curString = curString;
+	      this.pause.curStrPos = curStrPos;
+	    }
+	
+	    /**
+	     * Toggle the blinking cursor
+	     * @param {boolean} isBlinking
+	     * @private
+	     */
+	  }, {
+	    key: 'toggleBlinking',
+	    value: function toggleBlinking(isBlinking) {
+	      if (!this.cursor) return;
+	      // if in paused state, don't toggle blinking a 2nd time
+	      if (this.pause.status) return;
+	      if (this.cursorBlinking === isBlinking) return;
+	      this.cursorBlinking = isBlinking;
+	      var status = isBlinking ? 'infinite' : 0;
+	      this.cursor.style.animationIterationCount = status;
+	    }
+	
+	    /**
+	     * Speed in MS to type
+	     * @param {number} speed
+	     * @private
+	     */
+	  }, {
+	    key: 'humanizer',
+	    value: function humanizer(speed) {
+	      return Math.round(Math.random() * speed / 2) + speed;
+	    }
+	
+	    /**
+	     * Shuffle the sequence of the strings array
+	     * @private
+	     */
+	  }, {
+	    key: 'shuffleStringsIfNeeded',
+	    value: function shuffleStringsIfNeeded() {
+	      if (!this.shuffle) return;
+	      this.sequence = this.sequence.sort(function () {
+	        return Math.random() - 0.5;
+	      });
+	    }
+	
+	    /**
+	     * Adds a CSS class to fade out current string
+	     * @private
+	     */
+	  }, {
+	    key: 'initFadeOut',
+	    value: function initFadeOut() {
+	      var _this5 = this;
+	
+	      this.el.className += ' ' + this.fadeOutClass;
+	      if (this.cursor) this.cursor.className += ' ' + this.fadeOutClass;
+	      return setTimeout(function () {
+	        _this5.arrayPos++;
+	        _this5.replaceText('');
+	
+	        // Resets current string if end of loop reached
+	        if (_this5.strings.length > _this5.arrayPos) {
+	          _this5.typewrite(_this5.strings[_this5.sequence[_this5.arrayPos]], 0);
+	        } else {
+	          _this5.typewrite(_this5.strings[0], 0);
+	          _this5.arrayPos = 0;
+	        }
+	      }, this.fadeOutDelay);
+	    }
+	
+	    /**
+	     * Replaces current text in the HTML element
+	     * depending on element type
+	     * @param {string} str
+	     * @private
+	     */
+	  }, {
+	    key: 'replaceText',
+	    value: function replaceText(str) {
+	      if (this.attr) {
+	        this.el.setAttribute(this.attr, str);
+	      } else {
+	        if (this.isInput) {
+	          this.el.value = str;
+	        } else if (this.contentType === 'html') {
+	          this.el.innerHTML = str;
+	        } else {
+	          this.el.textContent = str;
+	        }
+	      }
+	    }
+	
+	    /**
+	     * If using input elements, bind focus in order to
+	     * start and stop the animation
+	     * @private
+	     */
+	  }, {
+	    key: 'bindFocusEvents',
+	    value: function bindFocusEvents() {
+	      var _this6 = this;
+	
+	      if (!this.isInput) return;
+	      this.el.addEventListener('focus', function (e) {
+	        _this6.stop();
+	      });
+	      this.el.addEventListener('blur', function (e) {
+	        if (_this6.el.value && _this6.el.value.length !== 0) {
+	          return;
+	        }
+	        _this6.start();
+	      });
+	    }
+	
+	    /**
+	     * On init, insert the cursor element
+	     * @private
+	     */
+	  }, {
+	    key: 'insertCursor',
+	    value: function insertCursor() {
+	      if (!this.showCursor) return;
+	      if (this.cursor) return;
+	      this.cursor = document.createElement('span');
+	      this.cursor.className = 'typed-cursor';
+	      this.cursor.innerHTML = this.cursorChar;
+	      this.el.parentNode && this.el.parentNode.insertBefore(this.cursor, this.el.nextSibling);
+	    }
+	  }]);
+	
+	  return Typed;
+	})();
+	
+	exports['default'] = Typed;
+	module.exports = exports['default'];
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+	
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+	
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+	
+	var _defaultsJs = __webpack_require__(2);
+	
+	var _defaultsJs2 = _interopRequireDefault(_defaultsJs);
+	
+	/**
+	 * Initialize the Typed object
+	 */
+	
+	var Initializer = (function () {
+	  function Initializer() {
+	    _classCallCheck(this, Initializer);
+	  }
+	
+	  _createClass(Initializer, [{
+	    key: 'load',
+	
+	    /**
+	     * Load up defaults & options on the Typed instance
+	     * @param {Typed} self instance of Typed
+	     * @param {object} options options object
+	     * @param {string} elementId HTML element ID _OR_ instance of HTML element
+	     * @private
+	     */
+	
+	    value: function load(self, options, elementId) {
+	      // chosen element to manipulate text
+	      if (typeof elementId === 'string') {
+	        self.el = document.querySelector(elementId);
+	      } else {
+	        self.el = elementId;
+	      }
+	
+	      self.options = _extends({}, _defaultsJs2['default'], options);
+	
+	      // attribute to type into
+	      self.isInput = self.el.tagName.toLowerCase() === 'input';
+	      self.attr = self.options.attr;
+	      self.bindInputFocusEvents = self.options.bindInputFocusEvents;
+	
+	      // show cursor
+	      self.showCursor = self.isInput ? false : self.options.showCursor;
+	
+	      // custom cursor
+	      self.cursorChar = self.options.cursorChar;
+	
+	      // Is the cursor blinking
+	      self.cursorBlinking = true;
+	
+	      // text content of element
+	      self.elContent = self.attr ? self.el.getAttribute(self.attr) : self.el.textContent;
+	
+	      // html or plain text
+	      self.contentType = self.options.contentType;
+	
+	      // typing speed
+	      self.typeSpeed = self.options.typeSpeed;
+	
+	      // add a delay before typing starts
+	      self.startDelay = self.options.startDelay;
+	
+	      // backspacing speed
+	      self.backSpeed = self.options.backSpeed;
+	
+	      // only backspace what doesn't match the previous string
+	      self.smartBackspace = self.options.smartBackspace;
+	
+	      // amount of time to wait before backspacing
+	      self.backDelay = self.options.backDelay;
+	
+	      // Fade out instead of backspace
+	      self.fadeOut = self.options.fadeOut;
+	      self.fadeOutClass = self.options.fadeOutClass;
+	      self.fadeOutDelay = self.options.fadeOutDelay;
+	
+	      // variable to check whether typing is currently paused
+	      self.isPaused = false;
+	
+	      // input strings of text
+	      self.strings = self.options.strings.map(function (s) {
+	        return s.trim();
+	      });
+	
+	      // div containing strings
+	      if (typeof self.options.stringsElement === 'string') {
+	        self.stringsElement = document.querySelector(self.options.stringsElement);
+	      } else {
+	        self.stringsElement = self.options.stringsElement;
+	      }
+	
+	      if (self.stringsElement) {
+	        self.strings = [];
+	        self.stringsElement.style.display = 'none';
+	        var strings = Array.prototype.slice.apply(self.stringsElement.children);
+	        var stringsLength = strings.length;
+	
+	        if (stringsLength) {
+	          for (var i = 0; i < stringsLength; i += 1) {
+	            var stringEl = strings[i];
+	            self.strings.push(stringEl.innerHTML.trim());
+	          }
+	        }
+	      }
+	
+	      // character number position of current string
+	      self.strPos = 0;
+	
+	      // current array position
+	      self.arrayPos = 0;
+	
+	      // index of string to stop backspacing on
+	      self.stopNum = 0;
+	
+	      // Looping logic
+	      self.loop = self.options.loop;
+	      self.loopCount = self.options.loopCount;
+	      self.curLoop = 0;
+	
+	      // shuffle the strings
+	      self.shuffle = self.options.shuffle;
+	      // the order of strings
+	      self.sequence = [];
+	
+	      self.pause = {
+	        status: false,
+	        typewrite: true,
+	        curString: '',
+	        curStrPos: 0
+	      };
+	
+	      // When the typing is complete (when not looped)
+	      self.typingComplete = false;
+	
+	      // Set the order in which the strings are typed
+	      for (var i in self.strings) {
+	        self.sequence[i] = i;
+	      }
+	
+	      // If there is some text in the element
+	      self.currentElContent = this.getCurrentElContent(self);
+	
+	      self.autoInsertCss = self.options.autoInsertCss;
+	
+	      this.appendAnimationCss(self);
+	    }
+	  }, {
+	    key: 'getCurrentElContent',
+	    value: function getCurrentElContent(self) {
+	      var elContent = '';
+	      if (self.attr) {
+	        elContent = self.el.getAttribute(self.attr);
+	      } else if (self.isInput) {
+	        elContent = self.el.value;
+	      } else if (self.contentType === 'html') {
+	        elContent = self.el.innerHTML;
+	      } else {
+	        elContent = self.el.textContent;
+	      }
+	      return elContent;
+	    }
+	  }, {
+	    key: 'appendAnimationCss',
+	    value: function appendAnimationCss(self) {
+	      if (!self.autoInsertCss) {
+	        return;
+	      }
+	      if (!self.showCursor || !self.fadeOut) {
+	        return;
+	      }
+	
+	      var css = document.createElement('style');
+	      css.type = 'text/css';
+	      var innerCss = '';
+	      if (self.showCursor) {
+	        innerCss += '\n        .typed-cursor{\n          opacity: 1;\n          animation: typedjsBlink 0.7s infinite;\n          -webkit-animation: typedjsBlink 0.7s infinite;\n                  animation: typedjsBlink 0.7s infinite;\n        }\n        @keyframes typedjsBlink{\n          50% { opacity: 0.0; }\n        }\n        @-webkit-keyframes typedjsBlink{\n          0% { opacity: 1; }\n          50% { opacity: 0.0; }\n          100% { opacity: 1; }\n        }\n      ';
+	      }
+	      if (self.fadeOut) {
+	        innerCss += '\n        .typed-fade-out{\n          opacity: 0;\n          transition: opacity .25s;\n          -webkit-animation: 0;\n                  animation: 0;\n        }\n      ';
+	      }
+	      if (css.length === 0) {
+	        return;
+	      }
+	      css.innerHTML = innerCss;
+	      document.head.appendChild(css);
+	    }
+	  }]);
+	
+	  return Initializer;
+	})();
+	
+	exports['default'] = Initializer;
+	var initializer = new Initializer();
+	exports.initializer = initializer;
+
+/***/ }),
+/* 2 */
+/***/ (function(module, exports) {
+
+	/**
+	 * Defaults & options
+	 * @returns {object} Typed defaults & options
+	 * @public
+	 */
+	
+	'use strict';
+	
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+	var defaults = {
+	  /**
+	   * @property {array} strings strings to be typed
+	   * @property {string} stringsElement ID of element containing string children
+	   */
+	  strings: ['These are the default values...', 'You know what you should do?', 'Use your own!', 'Have a great day!'],
+	  stringsElement: null,
+	
+	  /**
+	   * @property {number} typeSpeed type speed in milliseconds
+	   */
+	  typeSpeed: 0,
+	
+	  /**
+	   * @property {number} startDelay time before typing starts in milliseconds
+	   */
+	  startDelay: 0,
+	
+	  /**
+	   * @property {number} backSpeed backspacing speed in milliseconds
+	   */
+	  backSpeed: 0,
+	
+	  /**
+	   * @property {boolean} smartBackspace only backspace what doesn't match the previous string
+	   */
+	  smartBackspace: true,
+	
+	  /**
+	   * @property {boolean} shuffle shuffle the strings
+	   */
+	  shuffle: false,
+	
+	  /**
+	   * @property {number} backDelay time before backspacing in milliseconds
+	   */
+	  backDelay: 700,
+	
+	  /**
+	   * @property {boolean} fadeOut Fade out instead of backspace
+	   * @property {string} fadeOutClass css class for fade animation
+	   * @property {boolean} fadeOutDelay Fade out delay in milliseconds
+	   */
+	  fadeOut: false,
+	  fadeOutClass: 'typed-fade-out',
+	  fadeOutDelay: 500,
+	
+	  /**
+	   * @property {boolean} loop loop strings
+	   * @property {number} loopCount amount of loops
+	   */
+	  loop: false,
+	  loopCount: Infinity,
+	
+	  /**
+	   * @property {boolean} showCursor show cursor
+	   * @property {string} cursorChar character for cursor
+	   * @property {boolean} autoInsertCss insert CSS for cursor and fadeOut into HTML <head>
+	   */
+	  showCursor: true,
+	  cursorChar: '|',
+	  autoInsertCss: true,
+	
+	  /**
+	   * @property {string} attr attribute for typing
+	   * Ex: input placeholder, value, or just HTML text
+	   */
+	  attr: null,
+	
+	  /**
+	   * @property {boolean} bindInputFocusEvents bind to focus and blur if el is text input
+	   */
+	  bindInputFocusEvents: false,
+	
+	  /**
+	   * @property {string} contentType 'html' or 'null' for plaintext
+	   */
+	  contentType: 'html',
+	
+	  /**
+	   * All typing is complete
+	   * @param {Typed} self
+	   */
+	  onComplete: function onComplete(self) {},
+	
+	  /**
+	   * Before each string is typed
+	   * @param {number} arrayPos
+	   * @param {Typed} self
+	   */
+	  preStringTyped: function preStringTyped(arrayPos, self) {},
+	
+	  /**
+	   * After each string is typed
+	   * @param {number} arrayPos
+	   * @param {Typed} self
+	   */
+	  onStringTyped: function onStringTyped(arrayPos, self) {},
+	
+	  /**
+	   * During looping, after last string is typed
+	   * @param {Typed} self
+	   */
+	  onLastStringBackspaced: function onLastStringBackspaced(self) {},
+	
+	  /**
+	   * Typing has been stopped
+	   * @param {number} arrayPos
+	   * @param {Typed} self
+	   */
+	  onTypingPaused: function onTypingPaused(arrayPos, self) {},
+	
+	  /**
+	   * Typing has been started after being stopped
+	   * @param {number} arrayPos
+	   * @param {Typed} self
+	   */
+	  onTypingResumed: function onTypingResumed(arrayPos, self) {},
+	
+	  /**
+	   * After reset
+	   * @param {Typed} self
+	   */
+	  onReset: function onReset(self) {},
+	
+	  /**
+	   * After stop
+	   * @param {number} arrayPos
+	   * @param {Typed} self
+	   */
+	  onStop: function onStop(arrayPos, self) {},
+	
+	  /**
+	   * After start
+	   * @param {number} arrayPos
+	   * @param {Typed} self
+	   */
+	  onStart: function onStart(arrayPos, self) {},
+	
+	  /**
+	   * After destroy
+	   * @param {Typed} self
+	   */
+	  onDestroy: function onDestroy(self) {}
+	};
+	
+	exports['default'] = defaults;
+	module.exports = exports['default'];
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports) {
+
+	
+	/**
+	 * TODO: These methods can probably be combined somehow
+	 * Parse HTML tags & HTML Characters
+	 */
+	
+	'use strict';
+	
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+	
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+	
+	var HTMLParser = (function () {
+	  function HTMLParser() {
+	    _classCallCheck(this, HTMLParser);
+	  }
+	
+	  _createClass(HTMLParser, [{
+	    key: 'typeHtmlChars',
+	
+	    /**
+	     * Type HTML tags & HTML Characters
+	     * @param {string} curString Current string
+	     * @param {number} curStrPos Position in current string
+	     * @param {Typed} self instance of Typed
+	     * @returns {number} a new string position
+	     * @private
+	     */
+	
+	    value: function typeHtmlChars(curString, curStrPos, self) {
+	      if (self.contentType !== 'html') return curStrPos;
+	      var curChar = curString.substr(curStrPos).charAt(0);
+	      if (curChar === '<' || curChar === '&') {
+	        var endTag = '';
+	        if (curChar === '<') {
+	          endTag = '>';
+	        } else {
+	          endTag = ';';
+	        }
+	        while (curString.substr(curStrPos + 1).charAt(0) !== endTag) {
+	          curStrPos++;
+	          if (curStrPos + 1 > curString.length) {
+	            break;
+	          }
+	        }
+	        curStrPos++;
+	      }
+	      return curStrPos;
+	    }
+	
+	    /**
+	     * Backspace HTML tags and HTML Characters
+	     * @param {string} curString Current string
+	     * @param {number} curStrPos Position in current string
+	     * @param {Typed} self instance of Typed
+	     * @returns {number} a new string position
+	     * @private
+	     */
+	  }, {
+	    key: 'backSpaceHtmlChars',
+	    value: function backSpaceHtmlChars(curString, curStrPos, self) {
+	      if (self.contentType !== 'html') return curStrPos;
+	      var curChar = curString.substr(curStrPos).charAt(0);
+	      if (curChar === '>' || curChar === ';') {
+	        var endTag = '';
+	        if (curChar === '>') {
+	          endTag = '<';
+	        } else {
+	          endTag = '&';
+	        }
+	        while (curString.substr(curStrPos - 1).charAt(0) !== endTag) {
+	          curStrPos--;
+	          if (curStrPos < 0) {
+	            break;
+	          }
+	        }
+	        curStrPos--;
+	      }
+	      return curStrPos;
+	    }
+	  }]);
+	
+	  return HTMLParser;
+	})();
+	
+	exports['default'] = HTMLParser;
+	var htmlParser = new HTMLParser();
+	exports.htmlParser = htmlParser;
+
+/***/ })
+/******/ ])
+});
+;
 
 /***/ })
 /******/ ]);
