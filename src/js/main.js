@@ -9,3 +9,14 @@ var typed = new Typed('#typed', {
     typeSpeed: 100,
     loop: true,
   });
+
+  window.onload = function() {
+    Particles.init({
+      selector: '.background',
+      color: '#acacac',
+      maxParticles: 120,
+      sizeVariations: 3,
+      connectParticles: true,
+      minDistance: 150,
+    });
+  };
