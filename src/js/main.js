@@ -1,5 +1,4 @@
-// require("../css/style.css");
-import less from 'less';
+require("../css/style.css");
 require("../scss/agency.scss");
 
 import Typed from 'typed.js';
