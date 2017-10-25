@@ -9,7 +9,7 @@
 .grid figure {
 	position: relative;
     height: auto;
-	background: #3085a3;
+	background: #36cac3;
 	text-align: center;
 	cursor: pointer;
 }
@@ -51,7 +51,7 @@
 /*---------------*/
 
 .effect-bubba {
-	background: #2ba6d6;
+	background: #36cac3;
 }
 
 .effect-bubba img {
