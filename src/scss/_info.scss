@@ -1,0 +1,113 @@
+// Styling for the About info section
+.info-member {
+  margin-bottom: 50px;
+  text-align: center;
+  img {
+    width: 225px;
+    height: 225px;
+    border: 7px solid white;
+  }
+  h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+  }
+  p {
+    margin-top: 0;
+  }
+}
+/* Button download */
+
+.btn-download {
+  color: #fff;
+  height: 70px;
+  min-width: 260px;
+  line-height: 24px;
+  font-size: 16px;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+  &:active {
+    background: #36cac3;
+    top: 2px;
+  }
+  span {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.3s;
+    -webkit-backface-visibility: hidden;
+    -moz-transition: all 0.3s;
+    -moz-backface-visibility: hidden;
+    transition: all 0.3s;
+    backface-visibility: hidden;
+  }
+  &:before {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    line-height: 2.5;
+    font-size: 180%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  &:active:before {
+    color: #36cac3;
+  }
+}
+
+/* Button 5a */
+
+.btn-download-a {
+  &:hover span {
+    -webkit-transform: translateY(300%);
+    -moz-transform: translateY(300%);
+    -ms-transform: translateY(300%);
+    transform: translateY(300%);
+  }
+  &:before {
+    left: 0;
+    top: -100%;
+  }
+  &:hover:before {
+    top: 0;
+  }
+}
+
+.icon-download:before {
+  content: "\f019";
+  font-family: FontAwesome;
+}
+
+/* General button style (reset) */
+.btn {
+  border: 3px solid black;
+  border-radius: 0;
+  font-family: inherit;
+  font-size: inherit;
+  color: black;
+  background: none;
+  cursor: pointer;
+  padding: 20px 30px;
+  display: inline-block;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  background-color: transparent;
+  &:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+}

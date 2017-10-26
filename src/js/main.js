@@ -1,5 +1,5 @@
-require("../css/style.css");
-require("../scss/agency.scss");
+// require("../css/style.css");
+require("../scss/main.scss");
 
 import Typed from 'typed.js';
 
@@ -19,3 +19,4 @@ var typed = new Typed('#typed', {
       minDistance: 150,
     });
   };
+  
