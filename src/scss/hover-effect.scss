@@ -86,23 +86,30 @@
       transform: scale(1, 0);
     }
   }
-  h4 {
-    padding-top: 30%;
+  // h4 {
+  //   padding-top: 30%;
+  //   -webkit-transition: -webkit-transform 0.35s;
+  //   transition: transform 0.35s;
+  //   -webkit-transform: translate3d(0, -20px, 0);
+  //   transform: translate3d(0, -20px, 0);
+  // }
+  p {
+    padding-top: 28%;
     -webkit-transition: -webkit-transform 0.35s;
     transition: transform 0.35s;
     -webkit-transform: translate3d(0, -20px, 0);
     transform: translate3d(0, -20px, 0);
   }
-  p {
-    font-size: 14px;
-    text-transform: none;
-    padding: 20px 2.5em;
-    opacity: 0;
-    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-    transition: opacity 0.35s, transform 0.35s;
-    -webkit-transform: translate3d(0, 20px, 0);
-    transform: translate3d(0, 20px, 0);
-  }
+  // p {
+  //   font-size: 14px;
+  //   text-transform: none;
+  //   padding: 20px 2.5em;
+  //   opacity: 0;
+  //   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  //   transition: opacity 0.35s, transform 0.35s;
+  //   -webkit-transform: translate3d(0, 20px, 0);
+  //   transform: translate3d(0, 20px, 0);
+  // }
   &:hover {
     figcaption {
       &::before, &::after {
