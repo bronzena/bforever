@@ -60,11 +60,200 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 2);
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_typed_js__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_typed_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_typed_js__);
+// require("../css/style.css");
+__webpack_require__(1);
+
+
+
+var typed = new __WEBPACK_IMPORTED_MODULE_0_typed_js___default.a('#typed', {
+    stringsElement: '#typed-strings',
+		typeSpeed: 70,
+		startDelay: 1200,
+		// backspacing speed
+		backSpeed: 50,
+		// time before backspacing
+		backDelay: 700,
+		loop: true,
+  });
+
+  particlesJS('particles-js',
+  {
+    "particles": {
+      "number": {
+        "value": 80,
+        "density": {
+          "enable": true,
+          "value_area": 800
+        }
+      },
+      "color": {
+        "value": "#ffffff"
+      },
+      "shape": {
+        "type": "circle",
+        "stroke": {
+          "width": 0,
+          "color": "#000000"
+        },
+        "polygon": {
+          "nb_sides": 5
+        },
+        "image": {
+          "src": "img/github.svg",
+          "width": 100,
+          "height": 100
+        }
+      },
+      "opacity": {
+        "value": 0.2,
+        "random": false,
+        "anim": {
+          "enable": false,
+          "speed": 1,
+          "opacity_min": 0.1,
+          "sync": false
+        }
+      },
+      "size": {
+        "value": 5,
+        "random": true,
+        "anim": {
+          "enable": false,
+          "speed": 40,
+          "size_min": 0.1,
+          "sync": false
+        }
+      },
+      "line_linked": {
+        "enable": true,
+        "distance": 150,
+        "color": "#ffffff",
+        "opacity": 0.2,
+        "width": 1
+      },
+      "move": {
+        "enable": true,
+        "speed": 6,
+        "direction": "none",
+        "random": false,
+        "straight": false,
+        "out_mode": "out",
+        "attract": {
+          "enable": false,
+          "rotateX": 600,
+          "rotateY": 1200
+        }
+      }
+    },
+    "interactivity": {
+      "detect_on": "canvas",
+      "events": {
+        "onhover": {
+          "enable": false,
+          "mode": "repulse"
+        },
+        "onclick": {
+          "enable": true,
+          "mode": "push"
+        },
+        "resize": true
+      },
+      "modes": {
+        "grab": {
+          "distance": 400,
+          "line_linked": {
+            "opacity": 1
+          }
+        },
+        "bubble": {
+          "distance": 400,
+          "size": 40,
+          "duration": 2,
+          "opacity": 8,
+          "speed": 3
+        },
+        "repulse": {
+          "distance": 200
+        },
+        "push": {
+          "particles_nb": 4
+        },
+        "remove": {
+          "particles_nb": 2
+        }
+      }
+    },
+    "retina_detect": true,
+    "config_demo": {
+      "hide_card": false,
+      "background_color": "#b61924",
+      "background_image": "",
+      "background_position": "50% 50%",
+      "background_repeat": "no-repeat",
+      "background_size": "cover"
+    }
+  }
+
+);
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(2);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {"hmr":true}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(6)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../node_modules/css-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./main.scss", function() {
+			var newContent = require("!!../../node_modules/css-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./main.scss");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 2 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(3)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "body {\n  overflow-x: hidden;\n  font-family: 'Muli', 'Helvetica Neue', Helvetica, Arial, sans-serif; }\n\np {\n  line-height: 1.75; }\n\na {\n  color: #8BE3D6; }\n  a.active, a:active, a:focus, a:hover {\n    color: #62d9c7; }\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-weight: 700;\n  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n  text-transform: uppercase; }\n\nsection {\n  padding: 100px 0; }\n  section h2.section-heading {\n    font-size: 40px;\n    margin-top: 0;\n    margin-bottom: 15px; }\n  section h3.section-subheading {\n    font-size: 16px;\n    font-weight: 400;\n    font-style: italic;\n    margin-bottom: 75px;\n    text-transform: none;\n    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }\n\n::-moz-selection {\n  background: #8BE3D6;\n  text-shadow: none; }\n\n::selection {\n  background: #8BE3D6;\n  text-shadow: none; }\n\nimg::selection {\n  background: transparent; }\n\nimg::-moz-selection {\n  background: transparent; }\n\nbody {\n  -webkit-tap-highlight-color: #8BE3D6; }\n\n#mainNav {\n  background-color: #222222; }\n  #mainNav .navbar-toggler {\n    font-size: 12px;\n    right: 0;\n    padding: 13px;\n    text-transform: uppercase;\n    color: white;\n    border: 0;\n    background-color: #8BE3D6;\n    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    text-transform: uppercase; }\n  #mainNav .navbar-brand {\n    color: #8BE3D6;\n    font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }\n    #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {\n      color: #62d9c7; }\n  #mainNav .navbar-nav .nav-item .nav-link {\n    font-size: 90%;\n    font-weight: 400;\n    padding: 0.75em 0;\n    letter-spacing: 1px;\n    color: white;\n    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    text-transform: uppercase; }\n    #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {\n      color: #8BE3D6; }\n\n@media (min-width: 992px) {\n  #mainNav {\n    padding-top: 25px;\n    padding-bottom: 25px;\n    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;\n    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;\n    transition: padding-top 0.3s, padding-bottom 0.3s;\n    border: none;\n    background-color: transparent; }\n    #mainNav .navbar-brand {\n      font-size: 1.75em;\n      -webkit-transition: all 0.3s;\n      -moz-transition: all 0.3s;\n      transition: all 0.3s; }\n    #mainNav .navbar-nav .nav-item .nav-link {\n      padding: 1.1em 1em !important; }\n    #mainNav.navbar-shrink {\n      padding-top: 0;\n      padding-bottom: 0;\n      background-color: #222222; }\n      #mainNav.navbar-shrink .navbar-brand {\n        font-size: 1.25em;\n        padding: 12px 0; } }\n\n#particles-js {\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background-color: transparent;\n  background-image: url(\"\");\n  background-repeat: no-repeat;\n  background-size: cover;\n  background-position: 50% 50%; }\n\n#typed {\n  font-size: 1.75rem; }\n\n.typed-cursor {\n  font-size: 1.75rem;\n  -webkit-animation: blink 0.7s infinite;\n  -moz-animation: blink 0.7s infinite;\n  animation: blink 0.7s infinite; }\n\n@keyframes blink {\n  0% {\n    opacity: 1; }\n  50% {\n    opacity: 0; }\n  100% {\n    opacity: 1; } }\n\n@-webkit-keyframes blink {\n  0% {\n    opacity: 1; }\n  50% {\n    opacity: 0; }\n  100% {\n    opacity: 1; } }\n\n@-moz-keyframes blink {\n  0% {\n    opacity: 1; }\n  50% {\n    opacity: 0; }\n  100% {\n    opacity: 1; } }\n\nheader.masthead {\n  text-align: center;\n  height: 100vh;\n  color: white;\n  background-image: url(" + __webpack_require__(4) + ");\n  background-repeat: no-repeat;\n  background-attachment: fixed;\n  background-position: center center;\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover; }\n  header.masthead .intro-text {\n    padding-top: 150px;\n    padding-bottom: 100px; }\n    header.masthead .intro-text .intro-lead-in {\n      font-size: 22px;\n      font-style: italic;\n      line-height: 22px;\n      margin-bottom: 25px;\n      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }\n    header.masthead .intro-text .intro-heading {\n      font-size: 50px;\n      font-weight: 700;\n      line-height: 50px;\n      margin-bottom: 25px;\n      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n      text-transform: uppercase; }\n\n@media (min-width: 768px) {\n  header.masthead .intro-text {\n    padding-top: 300px;\n    padding-bottom: 200px; }\n    header.masthead .intro-text .intro-lead-in {\n      font-size: 40px;\n      font-style: italic;\n      line-height: 40px;\n      margin-bottom: 25px;\n      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }\n    header.masthead .intro-text .intro-heading {\n      font-size: 85px;\n      font-weight: 700;\n      line-height: 85px;\n      margin-bottom: 50px;\n      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n      text-transform: uppercase; } }\n\n.service-heading {\n  margin: 15px 0;\n  text-transform: none; }\n\n#portfolio .portfolio-item {\n  right: 0;\n  margin: 0 0 15px; }\n  #portfolio .portfolio-item .portfolio-link {\n    position: relative;\n    display: block;\n    max-width: 400px;\n    margin: 0 auto;\n    cursor: pointer; }\n    #portfolio .portfolio-item .portfolio-link .portfolio-hover {\n      position: absolute;\n      width: 100%;\n      height: 100%;\n      -webkit-transition: all ease 0.5s;\n      -moz-transition: all ease 0.5s;\n      transition: all ease 0.5s;\n      opacity: 0;\n      background: rgba(139, 227, 214, 0.9); }\n      #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {\n        opacity: 1; }\n      #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {\n        font-size: 20px;\n        position: absolute;\n        top: 50%;\n        width: 100%;\n        height: 20px;\n        margin-top: -12px;\n        text-align: center;\n        color: white; }\n        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {\n          margin-top: -12px; }\n        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,\n        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {\n          margin: 0; }\n  #portfolio .portfolio-item .portfolio-caption {\n    max-width: 400px;\n    margin: 0 auto;\n    padding: 25px;\n    text-align: center;\n    background-color: white; }\n    #portfolio .portfolio-item .portfolio-caption h4 {\n      margin: 0;\n      text-transform: none; }\n    #portfolio .portfolio-item .portfolio-caption p {\n      font-size: 16px;\n      font-style: italic;\n      margin: 0;\n      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }\n\n#portfolio * {\n  z-index: 2; }\n\n@media (min-width: 767px) {\n  #portfolio .portfolio-item {\n    margin: 0 0 30px; } }\n\n.portfolio-modal .modal-dialog {\n  max-width: none;\n  height: 100%;\n  margin: 0; }\n\n.portfolio-modal .modal-content {\n  min-height: 100%;\n  padding: 100px 0;\n  text-align: center;\n  border: none;\n  border-radius: 0;\n  background-clip: border-box;\n  -webkit-box-shadow: none;\n  box-shadow: none; }\n  .portfolio-modal .modal-content h2 {\n    font-size: 3em;\n    margin-bottom: 15px; }\n  .portfolio-modal .modal-content p {\n    margin-bottom: 30px; }\n  .portfolio-modal .modal-content p.item-intro {\n    font-size: 16px;\n    font-style: italic;\n    margin: 20px 0 30px;\n    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }\n  .portfolio-modal .modal-content ul.list-inline {\n    margin-top: 0;\n    margin-bottom: 30px; }\n  .portfolio-modal .modal-content img {\n    margin-bottom: 30px; }\n  .portfolio-modal .modal-content button {\n    cursor: pointer; }\n\n.portfolio-modal .close-modal {\n  position: absolute;\n  top: 25px;\n  right: 25px;\n  width: 75px;\n  height: 75px;\n  cursor: pointer;\n  background-color: transparent; }\n  .portfolio-modal .close-modal:hover {\n    opacity: 0.3; }\n  .portfolio-modal .close-modal .lr {\n    /* Safari and Chrome */\n    z-index: 1051;\n    width: 1px;\n    height: 75px;\n    margin-left: 35px;\n    /* IE 9 */\n    -webkit-transform: rotate(45deg);\n    -ms-transform: rotate(45deg);\n    transform: rotate(45deg);\n    background-color: #222222; }\n    .portfolio-modal .close-modal .lr .rl {\n      /* Safari and Chrome */\n      z-index: 1052;\n      width: 1px;\n      height: 75px;\n      /* IE 9 */\n      -webkit-transform: rotate(90deg);\n      -ms-transform: rotate(90deg);\n      transform: rotate(90deg);\n      background-color: #222222; }\n\n.portfolio-modal .modal-backdrop {\n  display: none;\n  opacity: 0; }\n\n.timeline {\n  position: relative;\n  padding: 0;\n  list-style: none; }\n  .timeline:before {\n    position: absolute;\n    top: 0;\n    bottom: 0;\n    left: 40px;\n    width: 2px;\n    margin-left: -1.5px;\n    content: '';\n    background-color: #f1f1f1; }\n  .timeline > li {\n    position: relative;\n    min-height: 50px;\n    margin-bottom: 50px; }\n    .timeline > li:after, .timeline > li:before {\n      display: table;\n      content: ' '; }\n    .timeline > li:after {\n      clear: both; }\n    .timeline > li .timeline-panel {\n      position: relative;\n      float: right;\n      width: 100%;\n      padding: 0 20px 0 100px;\n      text-align: left; }\n      .timeline > li .timeline-panel:before {\n        right: auto;\n        left: -15px;\n        border-right-width: 15px;\n        border-left-width: 0; }\n      .timeline > li .timeline-panel:after {\n        right: auto;\n        left: -14px;\n        border-right-width: 14px;\n        border-left-width: 0; }\n    .timeline > li .timeline-image {\n      position: absolute;\n      z-index: 100;\n      left: 0;\n      width: 80px;\n      height: 80px;\n      margin-left: 0;\n      text-align: center;\n      color: white;\n      border: 7px solid #f1f1f1;\n      border-radius: 100%;\n      background-color: #8BE3D6; }\n      .timeline > li .timeline-image h4 {\n        font-size: 10px;\n        line-height: 14px;\n        margin-top: 12px; }\n    .timeline > li.timeline-inverted > .timeline-panel {\n      float: right;\n      padding: 0 20px 0 100px;\n      text-align: left; }\n      .timeline > li.timeline-inverted > .timeline-panel:before {\n        right: auto;\n        left: -15px;\n        border-right-width: 15px;\n        border-left-width: 0; }\n      .timeline > li.timeline-inverted > .timeline-panel:after {\n        right: auto;\n        left: -14px;\n        border-right-width: 14px;\n        border-left-width: 0; }\n    .timeline > li:last-child {\n      margin-bottom: 0; }\n  .timeline .timeline-heading h4 {\n    margin-top: 0;\n    color: inherit; }\n    .timeline .timeline-heading h4.subheading {\n      text-transform: none; }\n  .timeline .timeline-body > ul,\n  .timeline .timeline-body > p {\n    margin-bottom: 0; }\n\n@media (min-width: 768px) {\n  .timeline:before {\n    left: 50%; }\n  .timeline > li {\n    min-height: 100px;\n    margin-bottom: 100px; }\n    .timeline > li .timeline-panel {\n      float: left;\n      width: 41%;\n      padding: 0 20px 20px 30px;\n      text-align: right; }\n    .timeline > li .timeline-image {\n      left: 50%;\n      width: 100px;\n      height: 100px;\n      margin-left: -50px; }\n      .timeline > li .timeline-image h4 {\n        font-size: 13px;\n        line-height: 18px;\n        margin-top: 16px; }\n    .timeline > li.timeline-inverted > .timeline-panel {\n      float: right;\n      padding: 0 30px 20px 20px;\n      text-align: left; } }\n\n@media (min-width: 992px) {\n  .timeline > li {\n    min-height: 150px; }\n    .timeline > li .timeline-panel {\n      padding: 0 20px 20px; }\n    .timeline > li .timeline-image {\n      width: 150px;\n      height: 150px;\n      margin-left: -75px; }\n      .timeline > li .timeline-image h4 {\n        font-size: 18px;\n        line-height: 26px;\n        margin-top: 30px; }\n    .timeline > li.timeline-inverted > .timeline-panel {\n      padding: 0 20px 20px; } }\n\n@media (min-width: 1200px) {\n  .timeline > li {\n    min-height: 170px; }\n    .timeline > li .timeline-panel {\n      padding: 0 20px 20px 100px; }\n    .timeline > li .timeline-image {\n      width: 170px;\n      height: 170px;\n      margin-left: -85px; }\n      .timeline > li .timeline-image h4 {\n        margin-top: 40px; }\n    .timeline > li.timeline-inverted > .timeline-panel {\n      padding: 0 100px 20px 20px; } }\n\n.info-member {\n  margin-bottom: 50px;\n  text-align: center; }\n  .info-member img {\n    width: 225px;\n    height: 225px;\n    border: 7px solid white; }\n  .info-member h4 {\n    margin-top: 25px;\n    margin-bottom: 0;\n    text-transform: none; }\n  .info-member p {\n    margin-top: 0; }\n\n/* Button download */\n.btn-download {\n  color: #fff;\n  height: 70px;\n  min-width: 260px;\n  line-height: 24px;\n  font-size: 16px;\n  overflow: hidden;\n  -webkit-backface-visibility: hidden;\n  -moz-backface-visibility: hidden;\n  backface-visibility: hidden; }\n  .btn-download:active {\n    background: #36cac3;\n    top: 2px; }\n  .btn-download span {\n    display: inline-block;\n    width: 100%;\n    height: 100%;\n    -webkit-transition: all 0.3s;\n    -webkit-backface-visibility: hidden;\n    -moz-transition: all 0.3s;\n    -moz-backface-visibility: hidden;\n    transition: all 0.3s;\n    backface-visibility: hidden; }\n  .btn-download:before {\n    position: absolute;\n    height: 100%;\n    width: 100%;\n    line-height: 2.5;\n    font-size: 180%;\n    -webkit-transition: all 0.3s;\n    -moz-transition: all 0.3s;\n    transition: all 0.3s; }\n  .btn-download:active:before {\n    color: #36cac3; }\n\n/* Button 5a */\n.btn-download-a:hover span {\n  -webkit-transform: translateY(300%);\n  -moz-transform: translateY(300%);\n  -ms-transform: translateY(300%);\n  transform: translateY(300%); }\n\n.btn-download-a:before {\n  left: 0;\n  top: -100%; }\n\n.btn-download-a:hover:before {\n  top: 0; }\n\n.icon-download:before {\n  content: \"\\F019\";\n  font-family: FontAwesome; }\n\n/* General button style (reset) */\n.btn {\n  border: 3px solid black;\n  border-radius: 0;\n  font-family: inherit;\n  font-size: inherit;\n  color: black;\n  background: none;\n  cursor: pointer;\n  padding: 20px 30px;\n  display: inline-block;\n  margin: 15px 30px;\n  text-transform: uppercase;\n  letter-spacing: 1px;\n  font-weight: 700;\n  outline: none;\n  position: relative;\n  -webkit-transition: all 0.3s;\n  -moz-transition: all 0.3s;\n  transition: all 0.3s;\n  background-color: transparent; }\n  .btn:after {\n    content: '';\n    position: absolute;\n    z-index: -1;\n    -webkit-transition: all 0.3s;\n    -moz-transition: all 0.3s;\n    transition: all 0.3s; }\n\nsection#contact {\n  background-color: #222222;\n  background-image: url(" + __webpack_require__(5) + ");\n  background-repeat: no-repeat;\n  background-position: center; }\n  section#contact .section-heading {\n    color: white; }\n  section#contact .form-group {\n    margin-bottom: 25px; }\n    section#contact .form-group input,\n    section#contact .form-group textarea {\n      padding: 20px; }\n    section#contact .form-group input.form-control {\n      height: auto; }\n    section#contact .form-group textarea.form-control {\n      height: 236px; }\n  section#contact .form-control:focus {\n    border-color: #8BE3D6;\n    box-shadow: none; }\n  section#contact ::-webkit-input-placeholder {\n    font-weight: 700;\n    color: #eeeeee;\n    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    text-transform: uppercase; }\n  section#contact :-moz-placeholder {\n    font-weight: 700;\n    color: #eeeeee;\n    /* Firefox 18- */\n    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    text-transform: uppercase; }\n  section#contact ::-moz-placeholder {\n    font-weight: 700;\n    color: #eeeeee;\n    /* Firefox 19+ */\n    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    text-transform: uppercase; }\n  section#contact :-ms-input-placeholder {\n    font-weight: 700;\n    color: #eeeeee;\n    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    text-transform: uppercase; }\n  section#contact .text-danger {\n    color: #e74c3c; }\n\nfooter {\n  padding: 25px 0;\n  text-align: center; }\n  footer span.copyright {\n    font-size: 90%;\n    line-height: 40px;\n    text-transform: none;\n    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    text-transform: uppercase; }\n  footer ul.quicklinks {\n    font-size: 90%;\n    line-height: 40px;\n    margin-bottom: 0;\n    text-transform: none;\n    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    text-transform: uppercase; }\n\nul.social-buttons {\n  margin-bottom: 0; }\n  ul.social-buttons li a {\n    font-size: 20px;\n    line-height: 40px;\n    display: block;\n    width: 40px;\n    height: 40px;\n    -webkit-transition: all 0.3s;\n    -moz-transition: all 0.3s;\n    transition: all 0.3s;\n    color: white;\n    border-radius: 100%;\n    outline: none;\n    background-color: #222222; }\n    ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {\n      background-color: #8BE3D6; }\n\n.text-primary {\n  color: #8BE3D6 !important; }\n\n.btn-primary {\n  font-weight: 700;\n  color: white;\n  border-color: #8BE3D6;\n  background-color: #8BE3D6;\n  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n  text-transform: uppercase; }\n  .btn-primary.focus, .btn-primary:focus {\n    color: white;\n    border-color: #2ec0ab;\n    background-color: #62d9c7; }\n  .btn-primary:hover {\n    color: white;\n    border-color: #5ad7c5;\n    background-color: #62d9c7; }\n  .btn-primary.active, .btn-primary:active,\n  .open > .btn-primary.dropdown-toggle {\n    color: white;\n    border-color: #5ad7c5;\n    background-color: #62d9c7; }\n    .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover,\n    .open > .btn-primary.dropdown-toggle.focus,\n    .open > .btn-primary.dropdown-toggle:focus,\n    .open > .btn-primary.dropdown-toggle:hover {\n      color: white;\n      border-color: #2ec0ab;\n      background-color: #45d2bd; }\n  .btn-primary.active, .btn-primary:active,\n  .open > .btn-primary.dropdown-toggle {\n    background-image: none; }\n  .btn-primary.disabled.focus, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled].focus, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover,\n  fieldset[disabled] .btn-primary.focus,\n  fieldset[disabled] .btn-primary:focus,\n  fieldset[disabled] .btn-primary:hover {\n    border-color: #8BE3D6;\n    background-color: #8BE3D6; }\n  .btn-primary .badge {\n    color: #8BE3D6;\n    background-color: white; }\n\n.btn-xl {\n  font-size: 18px;\n  font-weight: 700;\n  padding: 20px 40px;\n  border-radius: 3px;\n  color: white;\n  border-color: #8BE3D6;\n  background-color: #8BE3D6;\n  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n  text-transform: uppercase; }\n  .btn-xl.focus, .btn-xl:focus {\n    color: white;\n    border-color: #2ec0ab;\n    background-color: #62d9c7; }\n  .btn-xl:hover {\n    color: white;\n    border-color: #5ad7c5;\n    background-color: #62d9c7; }\n  .btn-xl.active, .btn-xl:active,\n  .open > .btn-xl.dropdown-toggle {\n    color: white;\n    border-color: #5ad7c5;\n    background-color: #62d9c7; }\n    .btn-xl.active.focus, .btn-xl.active:focus, .btn-xl.active:hover, .btn-xl:active.focus, .btn-xl:active:focus, .btn-xl:active:hover,\n    .open > .btn-xl.dropdown-toggle.focus,\n    .open > .btn-xl.dropdown-toggle:focus,\n    .open > .btn-xl.dropdown-toggle:hover {\n      color: white;\n      border-color: #2ec0ab;\n      background-color: #45d2bd; }\n  .btn-xl.active, .btn-xl:active,\n  .open > .btn-xl.dropdown-toggle {\n    background-image: none; }\n  .btn-xl.disabled.focus, .btn-xl.disabled:focus, .btn-xl.disabled:hover, .btn-xl[disabled].focus, .btn-xl[disabled]:focus, .btn-xl[disabled]:hover,\n  fieldset[disabled] .btn-xl.focus,\n  fieldset[disabled] .btn-xl:focus,\n  fieldset[disabled] .btn-xl:hover {\n    border-color: #8BE3D6;\n    background-color: #8BE3D6; }\n  .btn-xl .badge {\n    color: #8BE3D6;\n    background-color: white; }\n\n.grid {\n  position: relative;\n  margin: 0 auto;\n  list-style: none;\n  text-align: center; }\n  .grid figure {\n    position: relative;\n    height: auto;\n    text-align: center;\n    cursor: pointer;\n    margin: 0; }\n    .grid figure img {\n      position: relative;\n      display: block;\n      min-height: 100%;\n      max-width: 100%;\n      opacity: 1;\n      margin: 0; }\n    .grid figure figcaption {\n      color: #fff;\n      text-transform: uppercase;\n      font-size: 1.25em;\n      -webkit-backface-visibility: hidden;\n      backface-visibility: hidden;\n      position: absolute;\n      top: 0;\n      left: 0;\n      width: 100%;\n      height: 100%; }\n      .grid figure figcaption::before, .grid figure figcaption::after {\n        pointer-events: none; }\n      .grid figure figcaption > a {\n        position: absolute;\n        top: 0;\n        left: 0;\n        width: 100%;\n        height: 100%; }\n\n/* Common style */\n/*---------------*/\n/***** Bubba *****/\n/*---------------*/\n.effect-bubba {\n  background: black; }\n  .effect-bubba img {\n    -webkit-transition: opacity 0.35s;\n    transition: opacity 0.35s; }\n  .effect-bubba:hover img {\n    opacity: 0.4; }\n  .effect-bubba figcaption::before, .effect-bubba figcaption::after {\n    position: absolute;\n    top: 25px;\n    right: 25px;\n    bottom: 25px;\n    left: 25px;\n    content: '';\n    opacity: 0;\n    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;\n    transition: opacity 0.35s, transform 0.35s; }\n  .effect-bubba figcaption::before {\n    border-top: 1px solid #fff;\n    border-bottom: 1px solid #fff;\n    -webkit-transform: scale(0, 1);\n    transform: scale(0, 1); }\n  .effect-bubba figcaption::after {\n    border-right: 1px solid #fff;\n    border-left: 1px solid #fff;\n    -webkit-transform: scale(1, 0);\n    transform: scale(1, 0); }\n  .effect-bubba p {\n    padding-top: 28%;\n    -webkit-transition: -webkit-transform 0.35s;\n    transition: transform 0.35s;\n    -webkit-transform: translate3d(0, -20px, 0);\n    transform: translate3d(0, -20px, 0); }\n  .effect-bubba:hover figcaption::before, .effect-bubba:hover figcaption::after {\n    opacity: 1;\n    -webkit-transform: scale(1);\n    transform: scale(1); }\n  .effect-bubba:hover h4, .effect-bubba:hover p {\n    opacity: 1;\n    -webkit-transform: translate3d(0, 0, 0);\n    transform: translate3d(0, 0, 0); }\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 3 */
 /***/ (function(module, exports) {
 
 /*
@@ -146,7 +335,19 @@ function toComment(sourceMap) {
 
 
 /***/ }),
-/* 1 */
+/* 4 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "./src/img/header.jpg?f654bba2be52c7e32cc987a95d43f5f4";
+
+/***/ }),
+/* 5 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "./src/img/map-image.png?f40ed5b1e791e9d2479ba8b5e67f2df8";
+
+/***/ }),
+/* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -202,7 +403,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(5);
+var	fixUrls = __webpack_require__(7);
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -518,40 +719,7 @@ function updateLink (link, options, obj) {
 
 
 /***/ }),
-/* 2 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_typed_js__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_typed_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_typed_js__);
-// require("../css/style.css");
-__webpack_require__(12);
-
-
-
-var typed = new __WEBPACK_IMPORTED_MODULE_0_typed_js___default.a('#typed', {
-    stringsElement: '#typed-strings',
-    typeSpeed: 100,
-    loop: true,
-  });
-
-  window.onload = function() {
-    Particles.init({
-      selector: '.background',
-      color: '#acacac',
-      maxParticles: 120,
-      sizeVariations: 3,
-      connectParticles: true,
-      minDistance: 150,
-    });
-  };
-  
-
-/***/ }),
-/* 3 */,
-/* 4 */,
-/* 5 */
+/* 7 */
 /***/ (function(module, exports) {
 
 
@@ -646,21 +814,7 @@ module.exports = function (css) {
 
 
 /***/ }),
-/* 6 */,
-/* 7 */,
 /* 8 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "./src/img/header.jpg?f654bba2be52c7e32cc987a95d43f5f4";
-
-/***/ }),
-/* 9 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "./src/img/map-image.png?f40ed5b1e791e9d2479ba8b5e67f2df8";
-
-/***/ }),
-/* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*!
@@ -1699,52 +1853,6 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ ])
 });
 ;
-
-/***/ }),
-/* 11 */,
-/* 12 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(13);
-if(typeof content === 'string') content = [[module.i, content, '']];
-// Prepare cssTransformation
-var transform;
-
-var options = {"hmr":true}
-options.transform = transform
-// add the styles to the DOM
-var update = __webpack_require__(1)(content, options);
-if(content.locals) module.exports = content.locals;
-// Hot Module Replacement
-if(false) {
-	// When the styles change, update the <style> tags
-	if(!content.locals) {
-		module.hot.accept("!!../../node_modules/css-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./main.scss", function() {
-			var newContent = require("!!../../node_modules/css-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./main.scss");
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-			update(newContent);
-		});
-	}
-	// When the module is disposed, remove the <style> tags
-	module.hot.dispose(function() { update(); });
-}
-
-/***/ }),
-/* 13 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(0)(undefined);
-// imports
-
-
-// module
-exports.push([module.i, "body {\n  overflow-x: hidden;\n  font-family: 'Muli', 'Helvetica Neue', Helvetica, Arial, sans-serif; }\n\np {\n  line-height: 1.75; }\n\na {\n  color: #8BE3D6; }\n  a.active, a:active, a:focus, a:hover {\n    color: #62d9c7; }\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-weight: 700;\n  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n  text-transform: uppercase; }\n\nsection {\n  padding: 100px 0; }\n  section h2.section-heading {\n    font-size: 40px;\n    margin-top: 0;\n    margin-bottom: 15px; }\n  section h3.section-subheading {\n    font-size: 16px;\n    font-weight: 400;\n    font-style: italic;\n    margin-bottom: 75px;\n    text-transform: none;\n    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }\n\n::-moz-selection {\n  background: #8BE3D6;\n  text-shadow: none; }\n\n::selection {\n  background: #8BE3D6;\n  text-shadow: none; }\n\nimg::selection {\n  background: transparent; }\n\nimg::-moz-selection {\n  background: transparent; }\n\nbody {\n  -webkit-tap-highlight-color: #8BE3D6; }\n\n#mainNav {\n  background-color: #222222; }\n  #mainNav .navbar-toggler {\n    font-size: 12px;\n    right: 0;\n    padding: 13px;\n    text-transform: uppercase;\n    color: white;\n    border: 0;\n    background-color: #8BE3D6;\n    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    text-transform: uppercase; }\n  #mainNav .navbar-brand {\n    color: #8BE3D6;\n    font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }\n    #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {\n      color: #62d9c7; }\n  #mainNav .navbar-nav .nav-item .nav-link {\n    font-size: 90%;\n    font-weight: 400;\n    padding: 0.75em 0;\n    letter-spacing: 1px;\n    color: white;\n    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    text-transform: uppercase; }\n    #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {\n      color: #8BE3D6; }\n\n@media (min-width: 992px) {\n  #mainNav {\n    padding-top: 25px;\n    padding-bottom: 25px;\n    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;\n    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;\n    transition: padding-top 0.3s, padding-bottom 0.3s;\n    border: none;\n    background-color: transparent; }\n    #mainNav .navbar-brand {\n      font-size: 1.75em;\n      -webkit-transition: all 0.3s;\n      -moz-transition: all 0.3s;\n      transition: all 0.3s; }\n    #mainNav .navbar-nav .nav-item .nav-link {\n      padding: 1.1em 1em !important; }\n    #mainNav.navbar-shrink {\n      padding-top: 0;\n      padding-bottom: 0;\n      background-color: #222222; }\n      #mainNav.navbar-shrink .navbar-brand {\n        font-size: 1.25em;\n        padding: 12px 0; } }\n\n.background {\n  position: absolute;\n  display: block;\n  top: 0;\n  left: 0;\n  z-index: 0; }\n\nheader.masthead {\n  text-align: center;\n  height: 100vh;\n  color: white;\n  background-image: url(" + __webpack_require__(8) + ");\n  background-repeat: no-repeat;\n  background-attachment: scroll;\n  background-position: center center;\n  -webkit-background-size: cover;\n  -moz-background-size: cover;\n  -o-background-size: cover;\n  background-size: cover; }\n  header.masthead .intro-text {\n    padding-top: 150px;\n    padding-bottom: 100px; }\n    header.masthead .intro-text .intro-lead-in {\n      font-size: 22px;\n      font-style: italic;\n      line-height: 22px;\n      margin-bottom: 25px;\n      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }\n    header.masthead .intro-text .intro-heading {\n      font-size: 50px;\n      font-weight: 700;\n      line-height: 50px;\n      margin-bottom: 25px;\n      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n      text-transform: uppercase; }\n\n@media (min-width: 768px) {\n  header.masthead .intro-text {\n    padding-top: 300px;\n    padding-bottom: 200px; }\n    header.masthead .intro-text .intro-lead-in {\n      font-size: 40px;\n      font-style: italic;\n      line-height: 40px;\n      margin-bottom: 25px;\n      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }\n    header.masthead .intro-text .intro-heading {\n      font-size: 75px;\n      font-weight: 700;\n      line-height: 75px;\n      margin-bottom: 50px;\n      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n      text-transform: uppercase; } }\n\n.service-heading {\n  margin: 15px 0;\n  text-transform: none; }\n\n#portfolio .portfolio-item {\n  right: 0;\n  margin: 0 0 15px; }\n  #portfolio .portfolio-item .portfolio-link {\n    position: relative;\n    display: block;\n    max-width: 400px;\n    margin: 0 auto;\n    cursor: pointer; }\n    #portfolio .portfolio-item .portfolio-link .portfolio-hover {\n      position: absolute;\n      width: 100%;\n      height: 100%;\n      -webkit-transition: all ease 0.5s;\n      -moz-transition: all ease 0.5s;\n      transition: all ease 0.5s;\n      opacity: 0;\n      background: rgba(139, 227, 214, 0.9); }\n      #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {\n        opacity: 1; }\n      #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {\n        font-size: 20px;\n        position: absolute;\n        top: 50%;\n        width: 100%;\n        height: 20px;\n        margin-top: -12px;\n        text-align: center;\n        color: white; }\n        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {\n          margin-top: -12px; }\n        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,\n        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {\n          margin: 0; }\n  #portfolio .portfolio-item .portfolio-caption {\n    max-width: 400px;\n    margin: 0 auto;\n    padding: 25px;\n    text-align: center;\n    background-color: white; }\n    #portfolio .portfolio-item .portfolio-caption h4 {\n      margin: 0;\n      text-transform: none; }\n    #portfolio .portfolio-item .portfolio-caption p {\n      font-size: 16px;\n      font-style: italic;\n      margin: 0;\n      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }\n\n#portfolio * {\n  z-index: 2; }\n\n@media (min-width: 767px) {\n  #portfolio .portfolio-item {\n    margin: 0 0 30px; } }\n\n.portfolio-modal .modal-dialog {\n  max-width: none;\n  height: 100%;\n  margin: 0; }\n\n.portfolio-modal .modal-content {\n  min-height: 100%;\n  padding: 100px 0;\n  text-align: center;\n  border: none;\n  border-radius: 0;\n  background-clip: border-box;\n  -webkit-box-shadow: none;\n  box-shadow: none; }\n  .portfolio-modal .modal-content h2 {\n    font-size: 3em;\n    margin-bottom: 15px; }\n  .portfolio-modal .modal-content p {\n    margin-bottom: 30px; }\n  .portfolio-modal .modal-content p.item-intro {\n    font-size: 16px;\n    font-style: italic;\n    margin: 20px 0 30px;\n    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }\n  .portfolio-modal .modal-content ul.list-inline {\n    margin-top: 0;\n    margin-bottom: 30px; }\n  .portfolio-modal .modal-content img {\n    margin-bottom: 30px; }\n  .portfolio-modal .modal-content button {\n    cursor: pointer; }\n\n.portfolio-modal .close-modal {\n  position: absolute;\n  top: 25px;\n  right: 25px;\n  width: 75px;\n  height: 75px;\n  cursor: pointer;\n  background-color: transparent; }\n  .portfolio-modal .close-modal:hover {\n    opacity: 0.3; }\n  .portfolio-modal .close-modal .lr {\n    /* Safari and Chrome */\n    z-index: 1051;\n    width: 1px;\n    height: 75px;\n    margin-left: 35px;\n    /* IE 9 */\n    -webkit-transform: rotate(45deg);\n    -ms-transform: rotate(45deg);\n    transform: rotate(45deg);\n    background-color: #222222; }\n    .portfolio-modal .close-modal .lr .rl {\n      /* Safari and Chrome */\n      z-index: 1052;\n      width: 1px;\n      height: 75px;\n      /* IE 9 */\n      -webkit-transform: rotate(90deg);\n      -ms-transform: rotate(90deg);\n      transform: rotate(90deg);\n      background-color: #222222; }\n\n.portfolio-modal .modal-backdrop {\n  display: none;\n  opacity: 0; }\n\n.timeline {\n  position: relative;\n  padding: 0;\n  list-style: none; }\n  .timeline:before {\n    position: absolute;\n    top: 0;\n    bottom: 0;\n    left: 40px;\n    width: 2px;\n    margin-left: -1.5px;\n    content: '';\n    background-color: #f1f1f1; }\n  .timeline > li {\n    position: relative;\n    min-height: 50px;\n    margin-bottom: 50px; }\n    .timeline > li:after, .timeline > li:before {\n      display: table;\n      content: ' '; }\n    .timeline > li:after {\n      clear: both; }\n    .timeline > li .timeline-panel {\n      position: relative;\n      float: right;\n      width: 100%;\n      padding: 0 20px 0 100px;\n      text-align: left; }\n      .timeline > li .timeline-panel:before {\n        right: auto;\n        left: -15px;\n        border-right-width: 15px;\n        border-left-width: 0; }\n      .timeline > li .timeline-panel:after {\n        right: auto;\n        left: -14px;\n        border-right-width: 14px;\n        border-left-width: 0; }\n    .timeline > li .timeline-image {\n      position: absolute;\n      z-index: 100;\n      left: 0;\n      width: 80px;\n      height: 80px;\n      margin-left: 0;\n      text-align: center;\n      color: white;\n      border: 7px solid #f1f1f1;\n      border-radius: 100%;\n      background-color: #8BE3D6; }\n      .timeline > li .timeline-image h4 {\n        font-size: 10px;\n        line-height: 14px;\n        margin-top: 12px; }\n    .timeline > li.timeline-inverted > .timeline-panel {\n      float: right;\n      padding: 0 20px 0 100px;\n      text-align: left; }\n      .timeline > li.timeline-inverted > .timeline-panel:before {\n        right: auto;\n        left: -15px;\n        border-right-width: 15px;\n        border-left-width: 0; }\n      .timeline > li.timeline-inverted > .timeline-panel:after {\n        right: auto;\n        left: -14px;\n        border-right-width: 14px;\n        border-left-width: 0; }\n    .timeline > li:last-child {\n      margin-bottom: 0; }\n  .timeline .timeline-heading h4 {\n    margin-top: 0;\n    color: inherit; }\n    .timeline .timeline-heading h4.subheading {\n      text-transform: none; }\n  .timeline .timeline-body > ul,\n  .timeline .timeline-body > p {\n    margin-bottom: 0; }\n\n@media (min-width: 768px) {\n  .timeline:before {\n    left: 50%; }\n  .timeline > li {\n    min-height: 100px;\n    margin-bottom: 100px; }\n    .timeline > li .timeline-panel {\n      float: left;\n      width: 41%;\n      padding: 0 20px 20px 30px;\n      text-align: right; }\n    .timeline > li .timeline-image {\n      left: 50%;\n      width: 100px;\n      height: 100px;\n      margin-left: -50px; }\n      .timeline > li .timeline-image h4 {\n        font-size: 13px;\n        line-height: 18px;\n        margin-top: 16px; }\n    .timeline > li.timeline-inverted > .timeline-panel {\n      float: right;\n      padding: 0 30px 20px 20px;\n      text-align: left; } }\n\n@media (min-width: 992px) {\n  .timeline > li {\n    min-height: 150px; }\n    .timeline > li .timeline-panel {\n      padding: 0 20px 20px; }\n    .timeline > li .timeline-image {\n      width: 150px;\n      height: 150px;\n      margin-left: -75px; }\n      .timeline > li .timeline-image h4 {\n        font-size: 18px;\n        line-height: 26px;\n        margin-top: 30px; }\n    .timeline > li.timeline-inverted > .timeline-panel {\n      padding: 0 20px 20px; } }\n\n@media (min-width: 1200px) {\n  .timeline > li {\n    min-height: 170px; }\n    .timeline > li .timeline-panel {\n      padding: 0 20px 20px 100px; }\n    .timeline > li .timeline-image {\n      width: 170px;\n      height: 170px;\n      margin-left: -85px; }\n      .timeline > li .timeline-image h4 {\n        margin-top: 40px; }\n    .timeline > li.timeline-inverted > .timeline-panel {\n      padding: 0 100px 20px 20px; } }\n\n.info-member {\n  margin-bottom: 50px;\n  text-align: center; }\n  .info-member img {\n    width: 225px;\n    height: 225px;\n    border: 7px solid white; }\n  .info-member h4 {\n    margin-top: 25px;\n    margin-bottom: 0;\n    text-transform: none; }\n  .info-member p {\n    margin-top: 0; }\n\n/* Button download */\n.btn-download {\n  color: #fff;\n  height: 70px;\n  min-width: 260px;\n  line-height: 24px;\n  font-size: 16px;\n  overflow: hidden;\n  -webkit-backface-visibility: hidden;\n  -moz-backface-visibility: hidden;\n  backface-visibility: hidden; }\n  .btn-download:active {\n    background: #36cac3;\n    top: 2px; }\n  .btn-download span {\n    display: inline-block;\n    width: 100%;\n    height: 100%;\n    -webkit-transition: all 0.3s;\n    -webkit-backface-visibility: hidden;\n    -moz-transition: all 0.3s;\n    -moz-backface-visibility: hidden;\n    transition: all 0.3s;\n    backface-visibility: hidden; }\n  .btn-download:before {\n    position: absolute;\n    height: 100%;\n    width: 100%;\n    line-height: 2.5;\n    font-size: 180%;\n    -webkit-transition: all 0.3s;\n    -moz-transition: all 0.3s;\n    transition: all 0.3s; }\n  .btn-download:active:before {\n    color: #36cac3; }\n\n/* Button 5a */\n.btn-download-a:hover span {\n  -webkit-transform: translateY(300%);\n  -moz-transform: translateY(300%);\n  -ms-transform: translateY(300%);\n  transform: translateY(300%); }\n\n.btn-download-a:before {\n  left: 0;\n  top: -100%; }\n\n.btn-download-a:hover:before {\n  top: 0; }\n\n.icon-download:before {\n  content: \"\\F019\";\n  font-family: FontAwesome; }\n\n/* General button style (reset) */\n.btn {\n  border: 3px solid black;\n  border-radius: 0;\n  font-family: inherit;\n  font-size: inherit;\n  color: black;\n  background: none;\n  cursor: pointer;\n  padding: 20px 30px;\n  display: inline-block;\n  margin: 15px 30px;\n  text-transform: uppercase;\n  letter-spacing: 1px;\n  font-weight: 700;\n  outline: none;\n  position: relative;\n  -webkit-transition: all 0.3s;\n  -moz-transition: all 0.3s;\n  transition: all 0.3s;\n  background-color: transparent; }\n  .btn:after {\n    content: '';\n    position: absolute;\n    z-index: -1;\n    -webkit-transition: all 0.3s;\n    -moz-transition: all 0.3s;\n    transition: all 0.3s; }\n\nsection#contact {\n  background-color: #222222;\n  background-image: url(" + __webpack_require__(9) + ");\n  background-repeat: no-repeat;\n  background-position: center; }\n  section#contact .section-heading {\n    color: white; }\n  section#contact .form-group {\n    margin-bottom: 25px; }\n    section#contact .form-group input,\n    section#contact .form-group textarea {\n      padding: 20px; }\n    section#contact .form-group input.form-control {\n      height: auto; }\n    section#contact .form-group textarea.form-control {\n      height: 236px; }\n  section#contact .form-control:focus {\n    border-color: #8BE3D6;\n    box-shadow: none; }\n  section#contact ::-webkit-input-placeholder {\n    font-weight: 700;\n    color: #eeeeee;\n    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    text-transform: uppercase; }\n  section#contact :-moz-placeholder {\n    font-weight: 700;\n    color: #eeeeee;\n    /* Firefox 18- */\n    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    text-transform: uppercase; }\n  section#contact ::-moz-placeholder {\n    font-weight: 700;\n    color: #eeeeee;\n    /* Firefox 19+ */\n    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    text-transform: uppercase; }\n  section#contact :-ms-input-placeholder {\n    font-weight: 700;\n    color: #eeeeee;\n    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    text-transform: uppercase; }\n  section#contact .text-danger {\n    color: #e74c3c; }\n\nfooter {\n  padding: 25px 0;\n  text-align: center; }\n  footer span.copyright {\n    font-size: 90%;\n    line-height: 40px;\n    text-transform: none;\n    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    text-transform: uppercase; }\n  footer ul.quicklinks {\n    font-size: 90%;\n    line-height: 40px;\n    margin-bottom: 0;\n    text-transform: none;\n    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n    text-transform: uppercase; }\n\nul.social-buttons {\n  margin-bottom: 0; }\n  ul.social-buttons li a {\n    font-size: 20px;\n    line-height: 40px;\n    display: block;\n    width: 40px;\n    height: 40px;\n    -webkit-transition: all 0.3s;\n    -moz-transition: all 0.3s;\n    transition: all 0.3s;\n    color: white;\n    border-radius: 100%;\n    outline: none;\n    background-color: #222222; }\n    ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {\n      background-color: #8BE3D6; }\n\n.text-primary {\n  color: #8BE3D6 !important; }\n\n.btn-primary {\n  font-weight: 700;\n  color: white;\n  border-color: #8BE3D6;\n  background-color: #8BE3D6;\n  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n  text-transform: uppercase; }\n  .btn-primary.focus, .btn-primary:focus {\n    color: white;\n    border-color: #2ec0ab;\n    background-color: #62d9c7; }\n  .btn-primary:hover {\n    color: white;\n    border-color: #5ad7c5;\n    background-color: #62d9c7; }\n  .btn-primary.active, .btn-primary:active,\n  .open > .btn-primary.dropdown-toggle {\n    color: white;\n    border-color: #5ad7c5;\n    background-color: #62d9c7; }\n    .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover,\n    .open > .btn-primary.dropdown-toggle.focus,\n    .open > .btn-primary.dropdown-toggle:focus,\n    .open > .btn-primary.dropdown-toggle:hover {\n      color: white;\n      border-color: #2ec0ab;\n      background-color: #45d2bd; }\n  .btn-primary.active, .btn-primary:active,\n  .open > .btn-primary.dropdown-toggle {\n    background-image: none; }\n  .btn-primary.disabled.focus, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled].focus, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover,\n  fieldset[disabled] .btn-primary.focus,\n  fieldset[disabled] .btn-primary:focus,\n  fieldset[disabled] .btn-primary:hover {\n    border-color: #8BE3D6;\n    background-color: #8BE3D6; }\n  .btn-primary .badge {\n    color: #8BE3D6;\n    background-color: white; }\n\n.btn-xl {\n  font-size: 18px;\n  font-weight: 700;\n  padding: 20px 40px;\n  border-radius: 3px;\n  color: white;\n  border-color: #8BE3D6;\n  background-color: #8BE3D6;\n  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;\n  text-transform: uppercase; }\n  .btn-xl.focus, .btn-xl:focus {\n    color: white;\n    border-color: #2ec0ab;\n    background-color: #62d9c7; }\n  .btn-xl:hover {\n    color: white;\n    border-color: #5ad7c5;\n    background-color: #62d9c7; }\n  .btn-xl.active, .btn-xl:active,\n  .open > .btn-xl.dropdown-toggle {\n    color: white;\n    border-color: #5ad7c5;\n    background-color: #62d9c7; }\n    .btn-xl.active.focus, .btn-xl.active:focus, .btn-xl.active:hover, .btn-xl:active.focus, .btn-xl:active:focus, .btn-xl:active:hover,\n    .open > .btn-xl.dropdown-toggle.focus,\n    .open > .btn-xl.dropdown-toggle:focus,\n    .open > .btn-xl.dropdown-toggle:hover {\n      color: white;\n      border-color: #2ec0ab;\n      background-color: #45d2bd; }\n  .btn-xl.active, .btn-xl:active,\n  .open > .btn-xl.dropdown-toggle {\n    background-image: none; }\n  .btn-xl.disabled.focus, .btn-xl.disabled:focus, .btn-xl.disabled:hover, .btn-xl[disabled].focus, .btn-xl[disabled]:focus, .btn-xl[disabled]:hover,\n  fieldset[disabled] .btn-xl.focus,\n  fieldset[disabled] .btn-xl:focus,\n  fieldset[disabled] .btn-xl:hover {\n    border-color: #8BE3D6;\n    background-color: #8BE3D6; }\n  .btn-xl .badge {\n    color: #8BE3D6;\n    background-color: white; }\n\n.grid {\n  position: relative;\n  margin: 0 auto;\n  list-style: none;\n  text-align: center; }\n  .grid figure {\n    position: relative;\n    height: auto;\n    text-align: center;\n    cursor: pointer;\n    margin: 0; }\n    .grid figure img {\n      position: relative;\n      display: block;\n      min-height: 100%;\n      max-width: 100%;\n      opacity: 1;\n      margin: 0; }\n    .grid figure figcaption {\n      color: #fff;\n      text-transform: uppercase;\n      font-size: 1.25em;\n      -webkit-backface-visibility: hidden;\n      backface-visibility: hidden;\n      position: absolute;\n      top: 0;\n      left: 0;\n      width: 100%;\n      height: 100%; }\n      .grid figure figcaption::before, .grid figure figcaption::after {\n        pointer-events: none; }\n      .grid figure figcaption > a {\n        position: absolute;\n        top: 0;\n        left: 0;\n        width: 100%;\n        height: 100%; }\n\n/* Common style */\n/*---------------*/\n/***** Bubba *****/\n/*---------------*/\n.effect-bubba {\n  background: black; }\n  .effect-bubba img {\n    -webkit-transition: opacity 0.35s;\n    transition: opacity 0.35s; }\n  .effect-bubba:hover img {\n    opacity: 0.4; }\n  .effect-bubba figcaption::before, .effect-bubba figcaption::after {\n    position: absolute;\n    top: 25px;\n    right: 25px;\n    bottom: 25px;\n    left: 25px;\n    content: '';\n    opacity: 0;\n    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;\n    transition: opacity 0.35s, transform 0.35s; }\n  .effect-bubba figcaption::before {\n    border-top: 1px solid #fff;\n    border-bottom: 1px solid #fff;\n    -webkit-transform: scale(0, 1);\n    transform: scale(0, 1); }\n  .effect-bubba figcaption::after {\n    border-right: 1px solid #fff;\n    border-left: 1px solid #fff;\n    -webkit-transform: scale(1, 0);\n    transform: scale(1, 0); }\n  .effect-bubba p {\n    padding-top: 28%;\n    -webkit-transition: -webkit-transform 0.35s;\n    transition: transform 0.35s;\n    -webkit-transform: translate3d(0, -20px, 0);\n    transform: translate3d(0, -20px, 0); }\n  .effect-bubba:hover figcaption::before, .effect-bubba:hover figcaption::after {\n    opacity: 1;\n    -webkit-transform: scale(1);\n    transform: scale(1); }\n  .effect-bubba:hover h4, .effect-bubba:hover p {\n    opacity: 1;\n    -webkit-transform: translate3d(0, 0, 0);\n    transform: translate3d(0, 0, 0); }\n", ""]);
-
-// exports
-
 
 /***/ })
 /******/ ]);

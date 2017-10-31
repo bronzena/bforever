@@ -1,10 +1,37 @@
 // Styling for the masthead
-.background {
+#particles-js {
   position: absolute;
-  display: block;
-  top: 0;
-  left: 0;
-  z-index: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+#typed {
+  font-size: 1.75rem;
+}
+.typed-cursor {
+  font-size: 1.75rem;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-webkit-keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@-moz-keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
 }
 header.masthead {
   text-align: center;
@@ -12,7 +39,7 @@ header.masthead {
   color: white;
   background-image: url('../img/header.jpg');
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center center;
   @include background-cover;
   .intro-text {
@@ -47,9 +74,9 @@ header.masthead {
         @include serif-font;
       }
       .intro-heading {
-        font-size: 75px;
+        font-size: 85px;
         font-weight: 700;
-        line-height: 75px;
+        line-height: 85px;
         margin-bottom: 50px;
         @include heading-font;
       }
