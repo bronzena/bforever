@@ -2,7 +2,9 @@
 .text-primary {
   color: $theme-primary !important;
 }
-
+.text-danger {
+  color: $theme-danger !important;
+}
 .btn-primary {
   font-weight: 700;
   @include button-variant(white, $theme-primary, $theme-primary);

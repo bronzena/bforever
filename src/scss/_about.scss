@@ -1,5 +1,5 @@
 // Styling for the About info section
-.info-member {
+.about-member {
   margin-bottom: 50px;
   text-align: center;
   img {
@@ -16,14 +16,19 @@
     margin-top: 0;
   }
 }
+.bold {
+  color: $theme-primary;
+}
+
 /* Button download */
 
 .btn-download {
-  color: #fff;
+  @include btn-main;
   height: 70px;
   min-width: 260px;
   line-height: 24px;
   font-size: 16px;
+  margin: 15px 30px;
   overflow: hidden;
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
@@ -58,7 +63,7 @@
   }
 }
 
-/* Button 5a */
+/* Button a */
 
 .btn-download-a {
   &:hover span {
@@ -79,35 +84,4 @@
 .icon-download:before {
   content: "\f019";
   font-family: FontAwesome;
-}
-
-/* General button style (reset) */
-.btn {
-  border: 3px solid black;
-  border-radius: 0;
-  font-family: inherit;
-  font-size: inherit;
-  color: black;
-  background: none;
-  cursor: pointer;
-  padding: 20px 30px;
-  display: inline-block;
-  margin: 15px 30px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: 700;
-  outline: none;
-  position: relative;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-  background-color: transparent;
-  &:after {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
-  }
 }

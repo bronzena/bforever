@@ -13,7 +13,7 @@ var typed = new Typed('#typed', {
 		backDelay: 700,
 		loop: true,
   });
-
+  
   particlesJS('particles-js',
   {
     "particles": {

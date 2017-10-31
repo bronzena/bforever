@@ -41,6 +41,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#services">Services</a>
             </li>
@@ -48,7 +51,7 @@
               <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+              <a class="nav-link js-scroll-trigger" href="#info">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#team">Team</a>
@@ -64,6 +67,7 @@
     <!-- Header -->
     <header class="masthead">
         <div id="particles-js"></div>
+        
       <div class="container">
         <div class="intro-text">
           <div class="intro-lead-in">Hello there! I'm</div>
@@ -77,11 +81,12 @@
         <h3>I am <span id="typed"></span></h3>
           <!-- <a class="btn btn-xl js-scroll-trigger" href="#services">Tell Me More</a> -->
         </div>
+        <div class="overlay"></div>
       </div>
     </header>
 
      <!-- About-->
-     <section class="bg-light" id="info">
+     <section class="bg-light" id="about">
         <div class="container">
           <div class="row">
             <div class="col-lg-12 text-center">
@@ -91,7 +96,7 @@
           </div>
           <div class="row">
             <div class="col-sm-12">
-              <div class="info-member">
+              <div class="about-member">
                 <img class="mx-auto rounded-circle" src="./src/img/profile.jpg" alt="">
                 <h4>Jane Doe</h4>
                 <p class="text-muted">Lead Designer</p>
@@ -117,8 +122,8 @@
           </div>
           <div class="row">
             <div class="col-lg-8 mx-auto text-center">
-              <p class="large text-muted">I am a versatile computer engineer, self-motivated designer and a big <b>Star Wars </b> and <b>LOTR</b> fan. Very passionate
-                about minimalistic, clean and simple design. I love <b>coffee</b> and <b>video games</b>.
+              <p class="large text-muted">I am a versatile computer engineer, self-motivated designer and a big <b class="bold">Star Wars </b> and <b class="bold">LOTR</b> fan. Very passionate
+                about minimalistic, clean and simple design. I love <b class="bold">coffee</b> and <b class="bold">video games</b>.
                 <br />
                 I have comprehensive understanding of the latest web technologies and hands on experience with pen tablets.
                 Enthusiastic and always eager to learn and improve.</p>
@@ -289,11 +294,11 @@
     </section>
 
     <!-- About -->
-    <section id="about">
+    <section id="info">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">About</h2>
+            <h2 class="section-heading">Timeline</h2>
             <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
           </div>
         </div>
@@ -398,12 +403,12 @@
     </section>
 
     <!-- Contact -->
-    <section id="contact">
+    <section class="bg-light" id="contact">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Contact Us</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h2 class="section-heading">Get in touch</h2>
+            <h3 class="section-subheading text-muted">Have something nice to say? I would love to hear from you.</h3>
           </div>
         </div>
         <div class="row">
@@ -411,29 +416,52 @@
             <form id="contactForm" name="sentMessage" novalidate>
               <div class="row">
                 <div class="col-md-6">
-                  <div class="form-group">
-                    <input class="form-control" id="name" type="text" placeholder="Your Name *" required data-validation-required-message="Please enter your name.">
+                  <div class="input-group">
+                      <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+                      <input id="name" type="text" required data-validation-required-message="Please enter your name.">
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>Name</label>
                     <p class="help-block text-danger"></p>
                   </div>
-                  <div class="form-group">
-                    <input class="form-control" id="email" type="email" placeholder="Your Email *" required data-validation-required-message="Please enter your email address.">
+                  <div class="input-group">
+                      <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                    <input id="email" type="email" required data-validation-required-message="Please enter your email address.">
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                    <label>Email</label>
                     <p class="help-block text-danger"></p>
                   </div>
-                  <div class="form-group">
-                    <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required data-validation-required-message="Please enter your phone number.">
-                    <p class="help-block text-danger"></p>
-                  </div>
+                  <div class="input-group">
+                      <span class="input-group-addon"><i class="fa fa-comment"></i></span>                      
+                      <textarea id="message" required data-validation-required-message="Please enter a message."></textarea>
+                      <span class="highlight"></span>
+                      <span class="bar"></span>
+                      <label>Message</label>
+                      <p class="help-block text-danger"></p>
+                    </div>
+                    <button id="sendMessageButton" class="btn btn-send btn-send-a icon-send pull-right" type="submit"><span>Send Message</span></button>
                 </div>
                 <div class="col-md-6">
-                  <div class="form-group">
-                    <textarea class="form-control" id="message" placeholder="Your Message *" required data-validation-required-message="Please enter a message."></textarea>
-                    <p class="help-block text-danger"></p>
-                  </div>
+                  <h5 class="text-center">Contact info</h5>
+                  <ul class="fa-ul">
+                      <li><p><span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-mobile fa-stack-1x fa-inverse"></i>
+                        </span> <b>Phone: </b><span>+(389) 75 200 359</span></p></li>
+                      <li><p><span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-map-marker fa-stack-1x fa-inverse"></i>
+                        </span> Address:</p></li>
+                      <li><p><span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                        </span> Email:</p></li>
+                    </ul>    
                 </div>
                 <div class="clearfix"></div>
                 <div class="col-lg-12 text-center">
                   <div id="success"></div>
-                  <button id="sendMessageButton" class="btn btn-xl" type="submit">Send Message</button>
                 </div>
               </div>
             </form>
