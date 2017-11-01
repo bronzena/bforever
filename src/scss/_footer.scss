@@ -1,8 +1,10 @@
 // Styling for the footer
 footer {
+  background-color: $gray-secondary;
   padding: 25px 0;
   text-align: center;
   span.copyright {
+    color: white;
     font-size: 90%;
     line-height: 40px;
     text-transform: none;
@@ -29,10 +31,10 @@ ul.social-buttons {
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s;
-      color: white;
+      color: $gray-secondary;
       border-radius: 100%;
       outline: none;
-      background-color: $gray-darker;
+      background-color: white;
       &:active,
       &:focus,
       &:hover {
