@@ -1,0 +1,41 @@
+// Styling for the services section
+.service-heading {
+  margin: 15px 0;
+  text-transform: none;
+}
+.devicons {
+  font-size: 45px;
+  color: $gray-light;
+  padding: 15px;
+}
+
+.devicon-illustrator-plain:hover {
+	color: #faa625;
+}
+.devicon-photoshop-plain:hover{
+	color: #80b5e2;
+}
+.devicon-html5-plain:hover {
+	color: #e54d26;
+}
+.devicon-css3-plain:hover {
+	color: #3d8fc6;
+}
+.devicon-javascript-plain:hover {
+	color: #f0db4f;
+}
+.devicon-jquery-plain:hover{
+	color: #0769ad;
+}
+.devicon-vuejs-plain:hover {
+  color: #41B883;
+}
+.devicon-less-plain-wordmark:hover {
+	color: #2a4d80;
+}
+.devicon-sass-original:hover {
+	color: #cc6699;
+}
+.devicon-bootstrap-plain:hover {
+	color: #59407f;
+}
