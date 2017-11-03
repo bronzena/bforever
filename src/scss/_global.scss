@@ -76,7 +76,6 @@ body {
 /* Loading animation */
 .spinner {
   background: #f6f8fa !important;
-  border-color: #9e0909 !important;
   cursor: default;
   position: fixed;
   left: 0px;
@@ -85,24 +84,25 @@ body {
   height: 100%;
   z-index: 9999;
   &:before {
-    content: '';
-    box-sizing: border-box;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 40px;
-    height: 40px;
-    margin-top: -10px;
-    margin-left: -10px;
-    border-radius: 50%;
-    border: 2px solid #ccc;
-    border-top-color: #333;
-    animation: spin .6s linear infinite;
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  margin-top: -10px;
+  margin-left: -10px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  border-top-color: $theme-primary;
+  border-bottom-color: $theme-primary;
+  animation: spin .8s ease infinite;
   }
-}
-
-@keyframes spin {
+  }
+  
+  @keyframes spin {
   to {
-    transform: rotate(360deg);
+  transform: rotate(360deg);
   }
-}
+  }

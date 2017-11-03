@@ -2,10 +2,11 @@
 require("../scss/main.scss");
 
 document.addEventListener("DOMContentLoaded", function (event) {
-  setTimeout(function () { 
-    $(".spinner").fadeOut("slow"); 
-  }, 3000);
-});
+  setTimeout(function () {
+  $(".spinner").fadeOut("slow");
+  $("#page-top").fadeIn(3000);
+  }, 2000);
+  });
 
 import Typed from 'typed.js';
 
