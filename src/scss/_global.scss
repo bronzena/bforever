@@ -72,3 +72,37 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: $theme-primary;
 }
+
+/* Loading animation */
+.spinner {
+  background: #f6f8fa !important;
+  border-color: #9e0909 !important;
+  cursor: default;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  &:before {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: -10px;
+    margin-left: -10px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    border-top-color: #333;
+    animation: spin .6s linear infinite;
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,20 +1,24 @@
 // require("../css/style.css");
 require("../scss/main.scss");
 
+document.addEventListener("DOMContentLoaded", function (event) {
+  setTimeout(function () { 
+    $(".spinner").fadeOut("slow"); 
+  }, 3000);
+});
+
 import Typed from 'typed.js';
 
 var typed = new Typed('#typed', {
-    stringsElement: '#typed-strings',
-		typeSpeed: 70,
-		startDelay: 1200,
-		// backspacing speed
-		backSpeed: 50,
-		// time before backspacing
-		backDelay: 700,
-		loop: true,
-  });
-  
-  particlesJS('particles-js',
+  stringsElement: '#typed-strings',
+  typeSpeed: 70,
+  startDelay: 3600,
+  backSpeed: 50,
+  backDelay: 700,
+  loop: true,
+});
+
+particlesJS('particles-js',
   {
     "particles": {
       "number": {
